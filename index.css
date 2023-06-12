@@ -83,7 +83,8 @@ nav{
 position:relative;
 display:flex;
 background-color:#081b29;
-margin-top:11em;
+margin-top:9em;
+height:31.2em;
 }
 .personalinfo{
 display:flex;
@@ -110,5 +111,21 @@ color:skyblue;
 width:50%;
 }
 .Aboutme{
-background-color:#081b29;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+background-color:#0b3351;
+height:43em;
+}
+.Personalphotomini{
+border-radius:50%;
+background-size:cover;
+height:12em;
+width:9.7em;
+border: 4px solid white;
+}
+.myway{
+color:skyblue;
+width:49em;
 }
