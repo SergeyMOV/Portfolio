@@ -2,6 +2,9 @@ body{
     margin:0;
     padding:0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .main{
 background-color:#081b29;
 background-attachment: fixed;
@@ -84,7 +87,7 @@ position:relative;
 display:flex;
 background-color:#081b29;
 margin-top:9em;
-height:31.2em;
+height:37.4em;
 }
 .personalinfo{
 display:flex;
@@ -110,13 +113,16 @@ color:skyblue;
 .personalfoto{
 width:50%;
 }
+img{
+height:37.4em;
+}
 .Aboutme{
 display:flex;
 flex-direction:column;
 justify-content: center;
 align-items:center;
 background-color:#0b3351;
-height:43em;
+height:50em;
 }
 .Personalphotomini{
 border-radius:50%;
