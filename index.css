@@ -159,8 +159,9 @@ width:49em;
     width:73%;
     }
     .personalinfo h2{
-    width:8em;
+    width:9em;
     font-size:6em;
+    text-align: center;
     }
     .personalinfo h3{
     width:auto;
