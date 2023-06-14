@@ -8,7 +8,7 @@ html{
 .main{
 background-color:#081b29;
 background-attachment: fixed;
-
+width:100%;
 }
 nav ul{
 color:white;
@@ -50,7 +50,7 @@ nav ul li a:hover:after{
 header{
     display:flex;
     position:sticky;
-    z-index:1;
+    z-index:2;
     top:0px;
     justify-content:space-around;
     align-items:center;
@@ -64,10 +64,10 @@ border:1px solid;
 border-radius:4px 4px;
 transition:0.5s;
 }
-.homepagebutton2{
-border: 1px solid white;
-}
 .homepagebutton:hover{
+color:skyblue;
+}
+.homepagebutton a:hover{
 color:skyblue;
 }
 .slashsymbol{
@@ -113,7 +113,7 @@ color:skyblue;
 .personalfoto{
 width:50%;
 }
-img{
+.mainphoto{
 height:37.4em;
 }
 .Aboutme{
@@ -134,4 +134,70 @@ border: 4px solid white;
 .myway{
 color:skyblue;
 width:49em;
+}
+@media (min-width: 420px) and (orientation: portrait) {
+    .main{
+    width:100%;
+    }
+    header{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+    }
+    .mainphoto{
+        height:45em;
+        }
+    .introduction{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items: center;
+    height:100%;
+    margin:0;
+    }
+    .personalfoto{
+    width:73%;
+    }
+    .personalinfo h2{
+    width:8em;
+    font-size:6em;
+    }
+    .personalinfo h3{
+    width:auto;
+    padding-top:0.2em;
+    font-size:4em;
+    }
+    .personalinfo p{
+    font-size:2.1em;
+    text-align:center;
+    }
+    .personalinfo{
+    padding-top:3.1em;
+    }
+    nav ul a{
+    font-size:2em;
+    }
+    header h1{
+    font-size:5em;
+    }
+    nav ul span{
+    font-size:1.6em;
+    }
+    .homepagebutton{
+    height:2em;
+    }
+    .homepagebutton:hover:after{
+        transform: scaleX(0); 
+    }
+    .Aboutme{
+    height:110%;
+    }
+    .Personalphotomini{
+    font-size:3em;
+    }
+    .myway{
+    font-size:2.1em;
+    width:29em;
+    text-align:center;
+    }
 }
