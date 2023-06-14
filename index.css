@@ -47,6 +47,9 @@ nav ul li a:after{
 nav ul li a:hover:after{
     transform: scaleX(1); 
 }
+nav ul li:hover{
+cursor: pointer;
+}
 header{
     display:flex;
     position:sticky;
