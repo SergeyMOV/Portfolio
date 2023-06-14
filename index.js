@@ -12,7 +12,7 @@ else {
 }
 aboutButton.onclick = function() {
     if(x.matches){
-        window.scrollBy({ top: 1923, left: 0, behavior: "smooth" });
+        window.scrollBy({ top: 2250, left: 0, behavior: "smooth" });
     }
     else{
         window.scrollBy({ top: 900, left: 0, behavior: "smooth" });
