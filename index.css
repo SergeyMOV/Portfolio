@@ -65,13 +65,13 @@ height: 1em;
 padding-top: 0.4em;
 border:1px solid;
 border-radius:4px 4px;
-transition:0.5s;
+transition:1s;
 }
 .homepagebutton:hover{
 color:skyblue;
 }
-.homepagebutton a:hover{
-color:skyblue;
+.homepagebutton a:hover:after{
+    transform: scaleX(0); 
 }
 .slashsymbol{
 padding-top:0.5em;
