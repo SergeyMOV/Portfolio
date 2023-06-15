@@ -144,21 +144,21 @@ width:49em;
     .main{
     width:110%;
     }
-    
     header{
     display:flex;
     flex-direction:column;
     height:auto;
+    background:linear-gradient(#081b29, #0b3351);
     }
     .mainphoto{
-        height:45em;
+        height:48em;
         }
     .introduction{
     display:flex;
     flex-direction:column-reverse;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    height:120%;
+    height:100%;
     margin:0;
     }
     .personalfoto{
@@ -193,14 +193,14 @@ width:49em;
     font-size:1.9em;
     }
     .homepagebutton{
-        height:auto;
+    height:auto;
     border-radius: 8px 8px;
     }
     .homepagebutton:hover:after{
         transform: scaleX(0); 
     }
     .Aboutme{
-    height:120%;
+    height:100%;
     }
     .Personalphotomini{
     font-size:3em;
@@ -212,9 +212,6 @@ width:49em;
     }
 }
 @media (min-width: 768px) and (orientation: landscape){
-    .main{
-        width:100%;
-        }
     .mainphoto{
     height:23em;
     }

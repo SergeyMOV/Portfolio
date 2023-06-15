@@ -1,9 +1,9 @@
 const aboutButton = document.querySelector('[data-js="Aboutbutton"]');
 const homeButton = document.querySelector('[data-js="homebt"]');
 const homelink = document.querySelector('[data-js="homelink"]');
+const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
-
 if (history.scrollRestoration) {
     history.scrollRestoration = 'manual';
 }
@@ -14,7 +14,7 @@ else {
 }
 aboutButton.onclick = function() {
     if(x.matches && y.matches){
-        window.scrollBy({ top: 2250, left: 0, behavior: "smooth" });
+        window.scrollBy({ top: 2300, left: 0, behavior: "smooth" });
         document.querySelector("li.About").style.border="1px solid white";
         document.querySelector("li.About").style.borderRadius="8px 8px";
         homeButton.style.border="none";
