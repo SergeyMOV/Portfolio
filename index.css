@@ -141,9 +141,7 @@ color:skyblue;
 width:49em;
 }
 @media (min-width: 420px) and (orientation: portrait) {
-    .main{
-    width:100%;
-    }
+    
     header{
     display:flex;
     flex-direction:column;
