@@ -150,9 +150,6 @@ width:49em;
     flex-direction:column;
     height:auto;
     }
-    header h1{
-    padding-top:0.4em;
-    }
     .mainphoto{
         height:45em;
         }
@@ -190,6 +187,7 @@ width:49em;
     }
     header h1{
     font-size:5em;
+    padding-top:0.2em;
     }
     nav ul span{
     font-size:1.9em;
@@ -202,7 +200,7 @@ width:49em;
         transform: scaleX(0); 
     }
     .Aboutme{
-    height:110%;
+    height:120%;
     }
     .Personalphotomini{
     font-size:3em;
