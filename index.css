@@ -235,7 +235,7 @@ width:49em;
     }
     .introduction{
     align-items: self-end;
-    height: 32em;
+    height: 34em;
     }
     .personalinfo{
     height:28em;
@@ -249,10 +249,28 @@ width:49em;
     width:100%;
     }
     .mainphoto{
-        height:37.4em;
+        height:40.4em;
         }
         .introduction{
-            height: 37.4em;
-            align-items:self-start;
+            height: 49.2em;
+            }
+            .personalinfo p{
+            width:38em;
+            }
+            .personalinfo h2{
+            width:12.7em;
+            }
+            .personalinfo h3{
+            width:20em;
+            }
+            .personalinfo{
+            height:35em;
+            }
+            .Aboutme{
+            height:100%;
+            }
+            .Personalphotomini{
+            height:15em;
+            width:11.7em;
             }
 }
