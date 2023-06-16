@@ -4,8 +4,10 @@ const homelink = document.querySelector('[data-js="homelink"]');
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
-const s = window.matchMedia("(orientation: landscape)");
+const n = window.matchMedia("(min-width: 768px)");
+const c = window.matchMedia("(orientation: landscape)");
 const m = window.matchMedia("(min-width: 1280px)");
+const s = window.matchMedia("(orientation: landscape)");
 if (history.scrollRestoration) {
     history.scrollRestoration = 'manual';
 }
@@ -23,6 +25,9 @@ aboutButton.onclick = function() {
     }
     else if (s.matches && m.matches){
         window.scrollBy({ top: 1100, left: 0, behavior: "smooth" });
+    }
+    else if(c.matches && n.matches){
+        window.scrollBy({ top: 1200, left: 0, behavior: "smooth" });
     }
     else{
         window.scrollBy({ top: 900, left: 0, behavior: "smooth" });

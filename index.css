@@ -152,6 +152,7 @@ width:49em;
     }
     .mainphoto{
         height:48em;
+        max-height:35em;
         }
     .introduction{
     display:flex;
@@ -162,6 +163,8 @@ width:49em;
     margin:0;
     }
     .personalfoto{
+    display:flex;
+    justify-content: center;
     width:73%;
     }
     .personalinfo h2{
@@ -215,8 +218,18 @@ width:49em;
     }
 }
 @media (min-width: 768px) and (orientation: landscape){
+
+    .introduction{
+    height:100%;
+    margin:0;
+    align-items:center;
+    }
+    nav ul li a{
+    font-size:1.1em;
+    }
     .mainphoto{
-    height:23em;
+    min-height:30em;
+    max-height:30em;
     }
     .personalinfo h2{ 
     width:9.6em;
@@ -227,6 +240,15 @@ width:49em;
         .personalinfo p{ 
             width:28.4em;
             }
+            .personalinfo{
+            height:27.7em;
+            }
+            .Aboutme{
+            height:100%;
+            }
+            .homepagebutton{
+            height:auto;
+            }
 }
 
 @media (min-width: 1024px) and (orientation: landscape){
@@ -235,24 +257,27 @@ width:49em;
     }
     .introduction{
     align-items: self-end;
-    height: 44em;
+    height: 100%;
     }
     .personalinfo{
-    height:28em;
+    height:32em;
  }
     .mainphoto{
-        height:30em;
+        min-height:32em;
         }
+    .Aboutme{
+    height:100%;
+    }
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{
     width:100%;
     }
     .mainphoto{
-        height:40.4em;
+        min-height:38.4em;
         }
         .introduction{
-            height: 49.2em;
+            height: 100%;
             }
             .personalinfo p{
             width:31.7em;
