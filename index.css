@@ -235,7 +235,7 @@ width:49em;
     }
     .introduction{
     align-items: self-end;
-    height: 34em;
+    height: 44em;
     }
     .personalinfo{
     height:28em;
@@ -255,7 +255,8 @@ width:49em;
             height: 49.2em;
             }
             .personalinfo p{
-            width:38em;
+            width:31.7em;
+            font-size:1.2em;
             }
             .personalinfo h2{
             width:12.7em;
@@ -272,5 +273,11 @@ width:49em;
             .Personalphotomini{
             height:15em;
             width:11.7em;
+            }
+            nav ul a{
+                font-size:1.2em;
+                }
+            .Aboutme p{
+                font-size:1.2em;
             }
 }
