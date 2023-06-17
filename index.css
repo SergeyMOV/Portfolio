@@ -140,14 +140,6 @@ border: 4px solid white;
 color:skyblue;
 width:49em;
 }
-@media (min-width: 420px) and (orientation: landscape){
-    .introduction{
-    height:100%;
-    }
-    .Aboutme{
-        height:100%;
-        }
-}
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
     width:110%;
@@ -263,14 +255,14 @@ width:49em;
     width:100%;
     }
     .introduction{
-    align-items: self-end;
+    align-items: center;
     height: 100%;
     }
     .personalinfo{
-    height:32em;
+    height:28em;
  }
     .mainphoto{
-        min-height:32em;
+        height:32em;
         }
     .Aboutme{
     height:100%;
@@ -281,9 +273,13 @@ width:49em;
     width:100%;
     }
     .mainphoto{
-        min-height:38.4em;
+        min-height:40.4em;
         }
         .introduction{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
             height: 100%;
             }
             .personalinfo p{
