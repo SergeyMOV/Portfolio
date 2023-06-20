@@ -22,6 +22,8 @@ aboutButton.onclick = function() {
         document.querySelector("li.About").style.border="1px solid white";
         document.querySelector("li.About").style.borderRadius="8px 8px";
         homeButton.style.border="none";
+        header.style.backgroundColor="#0b3351";
+        header.style.transition="1s";
     }
     else if (s.matches && m.matches){
         window.scrollBy({ top: 1100, left: 0, behavior: "smooth" });
@@ -33,11 +35,14 @@ aboutButton.onclick = function() {
         window.scrollBy({ top: 900, left: 0, behavior: "smooth" });
     }
 }
+
 homeButton.onclick = function(){
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     if(x.matches && y.matches){
     document.querySelector("li.About").style.border="none";
     homeButton.style.border="1px solid white";
+    header.style.backgroundColor="transparent";
+    header.style.transition="1s";
 }
 }
 homeButton.addEventListener("mouseover", ()=>{
