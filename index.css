@@ -144,7 +144,7 @@ width:49em;
     height:2em;
     width:17em;
     cursor:pointer;
-    background-color:skyblue;
+    background-color:#0985ba;
     border-radius: 8px 8px;
     font-size:1.1em;
     transition:0.8s;
@@ -179,7 +179,7 @@ width:49em;
     box-shadow:0px 0px;
     }
     .mainphoto{
-        height:48em;
+        height:50em;
         }
     .introduction{
     display:flex;
@@ -210,6 +210,7 @@ width:49em;
     text-align:center;
     }
     .personalinfo{
+    width:100%;
     padding-top:3.1em;
     }
     nav ul a{
