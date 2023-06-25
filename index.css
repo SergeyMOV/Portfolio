@@ -164,6 +164,7 @@ width:49em;
     flex-direction:column;
     height:auto;
     transition:2s;
+    background:linear-gradient(#081b29, #0b3351);
     }
     .Certificate{
         font-size:2.2em;
@@ -209,17 +210,18 @@ width:49em;
     padding-top:3.1em;
     }
     nav ul a{
-    font-size:2.7em;
+    font-size:3em;
     }
     nav ul li{
-        padding:0.5em 1.5em;
+        padding:0.5em 0.8em;
         }
     header h1{
     font-size:5em;
     padding-top:0.2em;
     }
     nav ul span{
-    font-size:1.9em;
+    font-size:2.5em;
+    padding-top:0.3em !important;
     }
     .homepagebutton{
     height:auto;
