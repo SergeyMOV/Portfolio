@@ -61,7 +61,7 @@ header{
 }
 .homepagebutton{
 color:White;
-border:2px solid;
+border:1px solid;
 border-radius:8px 8px;
 transition:1s;
 }
@@ -310,13 +310,16 @@ width:49em;
     .mainphoto{
         min-height:40.4em;
         }
+        .slashsymbol{
+            padding-top:0.3em;
+            }
         .introduction{
             display:flex;
             flex-direction: row;
             align-items: self-end;
             justify-content: center;
             height: 100%;
-            margin-top:1.5em;
+            margin-top:1.2em;
             }
             .personalinfo p{
             width:31.7em;
@@ -324,6 +327,9 @@ width:49em;
             }
             .personalinfo h2{
             width:12.7em;
+            }
+            header{
+            background-color:transparent !important;
             }
             nav ul li a:hover:after{
                 transform: scaleX(1); 
