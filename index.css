@@ -235,6 +235,9 @@ width:49em;
     .homepagebutton:hover:after{
         transform: scaleX(0); 
     }
+    nav ul li a:hover:after{
+        transform: scaleX(0); 
+    }
     .Aboutme{
     height:110%;
     }

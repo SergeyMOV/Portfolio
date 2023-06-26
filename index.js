@@ -52,3 +52,19 @@ homelink.style.transition = "1s";
 homeButton.addEventListener("mouseout", ()=>{
     homelink.style.color="white";
     });
+
+    document.addEventListener("scroll", ()=>{
+        if(x.matches && y.matches && window.scrollY >=900){
+            document.querySelector("li.About").style.border="1px solid white";
+            document.querySelector("li.About").style.borderRadius="8px 8px";
+            document.querySelector("li.About").style.transition="1s";
+            document.querySelector("li.About").style.boxShadow ="2px 10px 10px 5px #0985ba";
+            homeButton.style.border="none";
+        }
+        else if(x.matches && y.matches && window.scrollY<1000){
+            document.querySelector("li.About").style.border="none";
+            document.querySelector("li.About").style.boxShadow ="none";
+            document.querySelector("li.About>a").style.transition="1s";
+            homeButton.style.border="1px solid white";
+        }
+    })
