@@ -30,7 +30,7 @@ nav{
 padding-top:0.8em;
 }
 nav ul li{
-padding:0.5em 2em;
+padding:0.2em 2em;
 }
 nav ul li a{
 color:white;
@@ -61,9 +61,8 @@ header{
 }
 .homepagebutton{
 color:White;
-height:1em;
 border:2px solid;
-border-radius:4px 4px;
+border-radius:8px 8px;
 transition:1s;
 }
 .homepagebutton:hover{
@@ -234,7 +233,6 @@ width:49em;
     }
     .homepagebutton{
     height:auto;
-    border-radius: 8px 8px;
     }
     .homepagebutton:hover:after{
         transform: scaleX(0); 
@@ -267,6 +265,9 @@ width:49em;
     min-height:30em;
     max-height:30em;
     }
+    nav ul li a:hover:after{
+        transform: scaleX(0); 
+    }
     .personalinfo h2{ 
     width:9.6em;
     }
@@ -279,7 +280,7 @@ width:49em;
             .personalinfo{
             height:27.7em;
             }
-            .homepagebutton{
+            .homepagebutton a{
             height:auto;
             }
 }
@@ -323,6 +324,9 @@ width:49em;
             }
             .personalinfo h2{
             width:12.7em;
+            }
+            nav ul li a:hover:after{
+                transform: scaleX(1); 
             }
             .personalinfo h3{
             width:20em;

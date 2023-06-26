@@ -30,7 +30,7 @@ aboutButton.onclick = function() {
         window.scrollBy({ top: 1100, left: 0, behavior: "smooth" });
     }
     else if(c.matches && n.matches){
-        window.scrollBy({ top: 1200, left: 0, behavior: "smooth" });
+        window.scrollBy({ top: 750, left: 0, behavior: "smooth" });
     }
     else{
         window.scrollBy({ top: 900, left: 0, behavior: "smooth" });
@@ -68,7 +68,21 @@ homeButton.addEventListener("mouseout", ()=>{
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.About>a").style.transition="1s";
             homeButton.style.border="2px solid white";
+            homelink.style.color="skyblue";   
+        }
+        else if(n.matches && c.matches && window.scrollY<500){
+            document.querySelector("li.About").style.border="none";
+            document.querySelector("li.About").style.boxShadow ="none";
+            document.querySelector("li.About>a").style.transition="1s";
+            homeButton.style.border="2px solid white";
             homelink.style.color="skyblue";
-            
+        }
+        else if(n.matches && c.matches && window.scrollY>=300){
+            document.querySelector("li.About").style.border="2px solid white";
+            document.querySelector("li.About").style.borderRadius="8px 8px";
+            document.querySelector("li.About").style.transition="1s";
+            document.querySelector("li.About").style.boxShadow ="2px 5px 13px 5px #0985ba";
+            homeButton.style.border="none";
+            homelink.style.color="white";
         }
     })
