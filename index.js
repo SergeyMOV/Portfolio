@@ -19,8 +19,9 @@ else {
 aboutButton.onclick = function() {
     if(x.matches && y.matches){
         window.scrollBy({ top: 2300, left: 0, behavior: "smooth" });
-        document.querySelector("li.About").style.border="1px solid white";
+        document.querySelector("li.About").style.border="2px solid white";
         document.querySelector("li.About").style.borderRadius="8px 8px";
+        document.querySelector("li.About").style.transition="1s";
         homeButton.style.border="none";
         header.style.backgroundColor="#0b3351";
         header.style.transition="1s";
@@ -40,7 +41,7 @@ homeButton.onclick = function(){
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     if(x.matches && y.matches){
     document.querySelector("li.About").style.border="none";
-    homeButton.style.border="1px solid white";
+    homeButton.style.border="2px solid white";
     header.style.backgroundColor="transparent";
     header.style.transition="1s";
 }
@@ -54,17 +55,20 @@ homeButton.addEventListener("mouseout", ()=>{
     });
 
     document.addEventListener("scroll", ()=>{
-        if(x.matches && y.matches && window.scrollY >=900){
-            document.querySelector("li.About").style.border="1px solid white";
+        if(x.matches && y.matches && window.scrollY >=1100){
+            document.querySelector("li.About").style.border="2px solid white";
             document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.transition="1s";
             document.querySelector("li.About").style.boxShadow ="2px 10px 10px 5px #0985ba";
             homeButton.style.border="none";
+            homelink.style.color="white";
         }
         else if(x.matches && y.matches && window.scrollY<1000){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.About>a").style.transition="1s";
-            homeButton.style.border="1px solid white";
+            homeButton.style.border="2px solid white";
+            homelink.style.color="skyblue";
+            
         }
     })

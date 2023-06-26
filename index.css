@@ -62,7 +62,7 @@ header{
 .homepagebutton{
 color:White;
 height:1em;
-border:1px solid;
+border:2px solid;
 border-radius:4px 4px;
 transition:1s;
 }
@@ -216,6 +216,9 @@ width:49em;
     }
     nav ul a{
     font-size:3em;
+    }
+    nav ul a.homelink{
+    color:skyblue;
     }
     nav ul li{
         padding:0.5em 0.8em;
