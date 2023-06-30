@@ -1,13 +1,14 @@
 const aboutButton = document.querySelector('[data-js="Aboutbutton"]');
 const homeButton = document.querySelector('[data-js="homebt"]');
 const homelink = document.querySelector('[data-js="homelink"]');
+const Certificatebutton = document.querySelector(".Certificate");
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
 const n = window.matchMedia("(min-width: 768px)");
 const c = window.matchMedia("(orientation: landscape)");
-const m = window.matchMedia("(min-width: 1280px)");
-const s = window.matchMedia("(orientation: landscape)");
+const m = window.matchMedia("(min-width: 1024px)");
+const ml = window.matchMedia("(min-width: 1280px)");
 
 if (history.scrollRestoration) {
     history.scrollRestoration = 'manual';
@@ -26,7 +27,7 @@ aboutButton.onclick = function() {
         header.style.backgroundColor="#0b3351";
         header.style.transition="1s";
     }
-    else if (s.matches && m.matches){
+    else if (c.matches && ml.matches){
         window.scrollBy({ top: 1100, left: 0, behavior: "smooth" });
         document.querySelector("li.About").style.border="1px solid white";
         document.querySelector("li.About").style.transition="0.3s";
@@ -55,6 +56,21 @@ homelink.style.transition = "1s";
 homeButton.addEventListener("mouseout", ()=>{
     homelink.style.color="white";
     });
+
+Certificatebutton.addEventListener("click",()=>{
+    if(ml.matches && c.matches || m.matches && c.matches){
+    Certificatebutton.style.boxShadow= "0px 0px";
+    Certificatebutton.style.transform="scale(1)";
+    Certificatebutton.style.transition="0.5s";
+    Certificatebutton.style.color="black";
+}
+else if(n.matches && c.matches){
+    Certificatebutton.style.transform="scale(0.9)";
+    Certificatebutton.style.transition="0.5s";
+    Certificatebutton.style.color="black";
+    Certificatebutton.style.boxShadow= "0px 0px";
+}
+})
 
     document.addEventListener("scroll", ()=>{
         if(x.matches && y.matches && window.scrollY >=1100){

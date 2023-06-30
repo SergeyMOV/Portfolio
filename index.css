@@ -266,9 +266,13 @@ width:49em;
     max-height:30em;
     }
     .Certificate{
-        box-shadow:10px 10px;
+        box-shadow:8px 8px;
         color:white;
         margin-top:1em;
+    }
+    .Certificate:hover{
+        transform:none;
+        color:none;
     }
     nav ul li a:hover:after{
         transform: scaleX(0); 
@@ -303,6 +307,16 @@ width:49em;
  }
     .mainphoto{
         height:32em;
+        }
+        .Certificate{
+            box-shadow:0px 0px;
+            color:black;
+            margin-top:1em;
+        }
+        .Certificate:hover{
+            box-shadow:7px 7px;
+            transform:scale(1.1);
+            color:white;
         }
     .Aboutme{
     height:100%;
