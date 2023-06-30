@@ -19,25 +19,11 @@ else {
     }
 }
 aboutButton.onclick = function() {
-    if(x.matches && y.matches){
-        window.scrollBy({ top: 2300, left: 0, behavior: "smooth" });
-        document.querySelector("li.About").style.border="2px solid white";
+        const page2= document.querySelector(".Aboutme");
+        page2.scrollIntoView({behavior: "smooth"});
         document.querySelector("li.About").style.borderRadius="8px 8px";
-        homeButton.style.border="none";
         header.style.backgroundColor="#0b3351";
         header.style.transition="1s";
-    }
-    else if (c.matches && ml.matches){
-        window.scrollBy({ top: 1100, left: 0, behavior: "smooth" });
-        document.querySelector("li.About").style.border="1px solid white";
-        document.querySelector("li.About").style.transition="0.3s";
-    }
-    else if(c.matches && n.matches){
-        window.scrollBy({ top: 750, left: 0, behavior: "smooth" });
-    }
-    else{
-        window.scrollBy({ top: 900, left: 0, behavior: "smooth" });
-    }
 }
 
 homeButton.onclick = function(){

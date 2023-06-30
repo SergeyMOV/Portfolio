@@ -157,6 +157,13 @@ width:49em;
 .Certificate:active{
     box-shadow:0px 0px;
 }
+.portfolio{
+height:50em;
+}
+.Capstone-Project{
+background:url("Capstone-Bild.png");
+background-size:cover;
+}
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
     width:110%;
@@ -257,13 +264,14 @@ width:49em;
     .introduction{
     margin:0;
     align-items:self-end;
+    height:46em;
     }
     nav ul li a{
     font-size:1.1em;
     }
     .mainphoto{
     min-height:30em;
-    max-height:30em;
+    max-height:36em;
     }
     .Certificate{
         box-shadow:8px 8px;
@@ -319,9 +327,6 @@ width:49em;
             transform:scale(1.1);
             color:white;
         }
-    .Aboutme{
-    height:100%;
-    }
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{
@@ -359,9 +364,6 @@ width:49em;
             }
             .personalinfo{
             height:35em;
-            }
-            .Aboutme{
-            height:100%;
             }
             .Personalphotomini{
             height:15em;
