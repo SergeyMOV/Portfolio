@@ -64,12 +64,6 @@ Certificatebutton.addEventListener("click",()=>{
     Certificatebutton.style.transition="0.5s";
     Certificatebutton.style.color="black";
 }
-else if(n.matches && c.matches){
-    Certificatebutton.style.transform="scale(0.9)";
-    Certificatebutton.style.transition="0.5s";
-    Certificatebutton.style.color="black";
-    Certificatebutton.style.boxShadow= "0px 0px";
-}
 })
 
     document.addEventListener("scroll", ()=>{
