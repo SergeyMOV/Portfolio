@@ -8,6 +8,7 @@ const n = window.matchMedia("(min-width: 768px)");
 const c = window.matchMedia("(orientation: landscape)");
 const m = window.matchMedia("(min-width: 1280px)");
 const s = window.matchMedia("(orientation: landscape)");
+
 if (history.scrollRestoration) {
     history.scrollRestoration = 'manual';
 }
@@ -21,7 +22,6 @@ aboutButton.onclick = function() {
         window.scrollBy({ top: 2300, left: 0, behavior: "smooth" });
         document.querySelector("li.About").style.border="2px solid white";
         document.querySelector("li.About").style.borderRadius="8px 8px";
-        document.querySelector("li.About").style.transition="1s";
         homeButton.style.border="none";
         header.style.backgroundColor="#0b3351";
         header.style.transition="1s";
