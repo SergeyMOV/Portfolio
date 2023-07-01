@@ -333,7 +333,7 @@ background-size:cover;
     width:100%;
     }
     .mainphoto{
-        min-height:40.4em;
+        min-height:39.4em;
         }
         .slashsymbol{
             padding-top:0.3em;
@@ -343,8 +343,7 @@ background-size:cover;
             flex-direction: row;
             align-items: self-end;
             justify-content: center;
-            height: 100%;
-            margin-top:1.2em;
+            margin-top:0;
             }
             .personalinfo p{
             width:31.7em;
@@ -363,7 +362,7 @@ background-size:cover;
             width:20em;
             }
             .personalinfo{
-            height:35em;
+            height:37em;
             }
             .Personalphotomini{
             height:15em;
@@ -375,4 +374,23 @@ background-size:cover;
             .Aboutme p{
                 font-size:1.2em;
             }
+}
+@media (min-width: 1600px) and (orientation: landscape){
+
+    .introduction{
+        display:flex;
+        flex-direction: row;
+        align-items: self-end;
+        justify-content: center;
+        margin-top:1.2em;
+        }
+        .mainphoto{
+            min-height:48.4em;
+            }
+            .personalinfo{
+                height:45em;
+                }
+                .Aboutme{
+                    height:70em;
+                    }
 }
