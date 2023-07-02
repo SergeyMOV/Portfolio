@@ -170,7 +170,7 @@ background-size:cover;
         font-size:2.7em;
         box-shadow:10px 10px;
         color:white;
-        margin-top:1em;
+        margin-top:2em;
     }
     .Certificate:active{
     color:black;
@@ -265,7 +265,7 @@ background-size:cover;
     .Certificate{
         box-shadow:8px 8px;
         color:white;
-        margin-top:1em;
+        margin-top:2em;
     }
     .Certificate:active{
         color:black;
