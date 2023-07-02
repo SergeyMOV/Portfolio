@@ -68,9 +68,7 @@ transition:1s;
 .homepagebutton:hover{
 color:skyblue;
 }
-.homepagebutton a:hover:after{
-    transform: scaleX(0); 
-}
+
 .slashsymbol{
 padding-top:0.5em;
 }
@@ -149,16 +147,9 @@ width:49em;
     transition:0.8s;
     letter-spacing:2px;
     }
-.Certificate:hover{
-    box-shadow:7px 7px;
-    transform:scale(1.1);
-    color:white;
-}
-.Certificate:active{
-    box-shadow:0px 0px;
-}
 .portfolio{
 height:50em;
+background-color: #1d5b89;
 }
 .Capstone-Project{
 background:url("Capstone-Bild.png");
@@ -185,6 +176,7 @@ background-size:cover;
     color:black;
     box-shadow:0px 0px;
     transform:scale(0.9);
+    font-size:auto;
     }
     .mainphoto{
         height:58em;
@@ -240,9 +232,6 @@ background-size:cover;
     }
     .homepagebutton{
     height:auto;
-    }
-    .homepagebutton:hover:after{
-        transform: scaleX(0); 
     }
     nav ul li a:hover:after{
         transform: scaleX(0); 
@@ -314,6 +303,9 @@ background-size:cover;
     .personalinfo{
     height:28em;
  }
+ nav ul li a:hover:after{
+    transform: scaleX(1); 
+}
     .mainphoto{
         height:32em;
         }
@@ -326,6 +318,11 @@ background-size:cover;
             box-shadow:7px 7px;
             transform:scale(1.1);
             color:white;
+        }
+        .Certificate:active{
+            transform: scale(0.9);
+            box-shadow: 0px 0px;
+            transition:none;
         }
 }
 @media (min-width: 1280px) and (orientation: landscape){
@@ -373,6 +370,9 @@ background-size:cover;
                 }
             .Aboutme p{
                 font-size:1.2em;
+            }
+            .Aboutme{
+            height:60em;
             }
 }
 @media (min-width: 1600px) and (orientation: landscape){

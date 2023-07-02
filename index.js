@@ -1,7 +1,8 @@
 const aboutButton = document.querySelector('[data-js="Aboutbutton"]');
 const homeButton = document.querySelector('[data-js="homebt"]');
 const homelink = document.querySelector('[data-js="homelink"]');
-const Certificatebutton = document.querySelector(".Certificate");
+const certificateButton = document.querySelector('[data-js="Certificate"]');
+const cvButton = document.querySelector('[data-js="CV"]')
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
@@ -22,18 +23,11 @@ aboutButton.onclick = function() {
         const page2= document.querySelector(".Aboutme");
         page2.scrollIntoView({behavior: "smooth"});
         document.querySelector("li.About").style.borderRadius="8px 8px";
-        header.style.backgroundColor="#0b3351";
-        header.style.transition="1s";
 }
 
 homeButton.onclick = function(){
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    if(x.matches && y.matches){
     document.querySelector("li.About").style.border="none";
-    homeButton.style.border="2px solid white";
-    header.style.backgroundColor="transparent";
-    header.style.transition="1s";
-}
 }
 homeButton.addEventListener("mouseover", ()=>{
 homelink.style.color="skyblue";
@@ -42,15 +36,6 @@ homelink.style.transition = "1s";
 homeButton.addEventListener("mouseout", ()=>{
     homelink.style.color="white";
     });
-
-Certificatebutton.addEventListener("click",()=>{
-    if(ml.matches && c.matches || m.matches && c.matches){
-    Certificatebutton.style.boxShadow= "0px 0px";
-    Certificatebutton.style.transform="scale(1)";
-    Certificatebutton.style.transition="0.5s";
-    Certificatebutton.style.color="black";
-}
-})
 
     document.addEventListener("scroll", ()=>{
         if(x.matches && y.matches && window.scrollY >=1100){
