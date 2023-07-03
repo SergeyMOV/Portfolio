@@ -148,12 +148,31 @@ width:49em;
     letter-spacing:2px;
     }
 .portfolio{
+display:flex;
+flex-direction:column;
 height:50em;
+justify-content:center;
 background-color: #1d5b89;
 }
-.Capstone-Project{
+.capstone-project{
+margin-left:4em;
+width:26em;
+transition:1s;
+}
+.capstone-project:hover{
+    box-shadow: 0px 3px 10px 10px #2b9bcb;
+    transform:scale(1.1);
+    }
+.capstone-Image{
 background:url("Capstone-Bild.png");
-background-size:cover;
+background-size:contain;
+background-repeat: no-repeat;
+height:5em;
+width:26rem;
+}
+.app-description{
+color:skyblue;
+width:25em;
 }
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
@@ -237,7 +256,7 @@ background-size:cover;
         transform: scaleX(0); 
     }
     .Aboutme{
-    height:110%;
+    height:125rem;
     }
     .Personalphotomini{
     font-size:3em;
@@ -246,6 +265,23 @@ background-size:cover;
     font-size:2.3em;
     width:26em;
     text-align:center;
+    }
+    .portfolio{
+    display:flex;
+    justify-content: center;
+    height:125rem;
+    }
+    .capstone-project{
+    width:20em;
+    height:20em;
+    margin:0px;
+    }
+    .app-description{
+    font-size:2.3em;
+    }
+    .capstone-Image{
+    width:54em;
+    height:10em;
     }
 }
 @media (min-width: 768px) and (orientation: landscape){
@@ -298,7 +334,6 @@ background-size:cover;
     }
     .introduction{
     align-items: center;
-    height: 100%;
     }
     .personalinfo{
     height:28em;

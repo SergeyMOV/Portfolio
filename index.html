@@ -9,16 +9,16 @@
 <header data-js="Header">
         <i><h1>Portfolio</h1></i>
 <nav>
-    <ul type="none">
-        <li data-js="homebt" class="homepagebutton"><a href="#1" class="homelink" data-js="homelink">Home</a></li>
+    <ul class="head" type="none">
+        <li class="homepagebutton" data-js="homebt"><a href="#1" class="homelink" data-js="homelink">Home</a></li>
         &nbsp; &nbsp;&nbsp;<span class="slashsymbol">|</span>
-        <li class="About"><a href="#2" data-js="Aboutbutton">About</a></li>
+        <li class="About"><a class="link" href="#2" data-js="Aboutbutton">About</a></li>
         <span class="slashsymbol">|</span>
-        <li><a class="link" href="#">Portfolio</a></li>
+        <li class="portf"><a data-js="homelink" class="portflink" id="portfoliolink" href="#3">Portfolio</a></li>
         <span class="slashsymbol">|</span>
-        <li><a class="link" href="#">Services</a></li>
+        <li><a data-js="link" class="link" href="#">Services</a></li>
         <span class="slashsymbol">|</span>
-        <li><a class="link" href="#">Contact</a></li>
+        <li><a data-js="link" class="link" href="#">Contact</a></li>
     </ul>
 </nav>
 </header>
@@ -33,15 +33,19 @@
 <section class="Aboutme">
 <img src="SmallPhoto.jpg" class="Personalphotomini">
 <p class="myway">Hello, my name is Sergey Movsesyan. I am a 24-year-old young man who is passionate about front-end development/web development. At first, I took up web programming as a hobby for approximately two years and during this period I acquired the basic knowledge in web development at the institution Webex Technologies. However, my interest grew so much that I decided to pursue it professionally. Recently, I have successfully completed the advanced web development bootcamp at Neue Fische GmbH presenting my mobile-app as a final project.You can view my diplomas and information about my digital thesis by clicking on the following link.</p>
-<button class="Certificate" data-js="Certificate" onclick="location.href='https://drive.google.com/file/d/1Np5dhTIy4wu8TX5rTvTUIDjGeN5rcubC/view?usp=sharing'; " formtarget=”_blank”>Diplomas/Certifications</button>
+<button class="Certificate" data-js="Certificate" onclick="location.href='https://drive.google.com/file/d/1Np5dhTIy4wu8TX5rTvTUIDjGeN5rcubC/view?usp=sharing';">Diplomas/Certifications</button>
 <a href="CV_Sergey_Movsesyan.pdf" download="CV_Sergey_Movsesyan">
 <button class="Certificate" data-js="CV" id="CV">Download CV</button>
 </a>
 <br>
 </section>
 <section class="portfolio">
-<section class="Capstone-Project">
-
+<section class="capstone-project">
+<a href="https://capstone-project-eight-delta.vercel.app/"><img src="Capstone-Bild.png" class="capstone-Image"/></a>
+<p class="app-description">The "ManageYourSupplies" Mobile-App let you to Control
+    your Locally collected budget, their Inputs und
+    Outputs.In addition, you can set and reach goals
+    regarding your budget.</p>
 </section>
 </section>
 </div>

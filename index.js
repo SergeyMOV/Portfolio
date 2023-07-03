@@ -2,7 +2,8 @@ const aboutButton = document.querySelector('[data-js="Aboutbutton"]');
 const homeButton = document.querySelector('[data-js="homebt"]');
 const homelink = document.querySelector('[data-js="homelink"]');
 const certificateButton = document.querySelector('[data-js="Certificate"]');
-const cvButton = document.querySelector('[data-js="CV"]')
+const portfolioButton = document.querySelector(".portf");
+const cvButton = document.querySelector('[data-js="CV"]');
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
@@ -18,17 +19,10 @@ else {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-}
-aboutButton.onclick = function() {
-        const page2= document.querySelector(".Aboutme");
-        page2.scrollIntoView({behavior: "smooth"});
-        document.querySelector("li.About").style.borderRadius="8px 8px";
-}
-
+};
 homeButton.onclick = function(){
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    document.querySelector("li.About").style.border="none";
-}
+};
 homeButton.addEventListener("mouseover", ()=>{
 homelink.style.color="skyblue";
 homelink.style.transition = "1s";
@@ -37,14 +31,36 @@ homeButton.addEventListener("mouseout", ()=>{
     homelink.style.color="white";
     });
 
+    aboutButton.onclick = function() {
+        const page2= document.querySelector(".Aboutme");
+        page2.scrollIntoView({behavior: "smooth"});
+        document.querySelector("li.About").style.borderRadius="8px 8px"
+};
+portfolioButton.onclick = function(){
+const page3= document.querySelector(".capstone-Image");
+page3.scrollIntoView(({behavior:"smooth"}));
+document.querySelector("li.About").style.borderRadius="8px 8px"
+};
+
     document.addEventListener("scroll", ()=>{
-        if(x.matches && y.matches && window.scrollY >=1100){
+        if(x.matches && y.matches && window.scrollY >=1550 && window.scrollY<2800){
             document.querySelector("li.About").style.border="1px solid white";
             document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.transition="1s";
             document.querySelector("li.About").style.boxShadow ="2px 10px 10px 5px #0985ba";
+            document.querySelector("li.portf").style.border="none";
+            document.querySelector("li.portf").style.boxShadow="none"; 
             homeButton.style.border="none";
             homelink.style.color="white";
+        }
+        else if(x.matches && y.matches && window.scrollY>=3000){
+            document.querySelector("li.About").style.border="none";
+            document.querySelector("li.About").style.boxShadow ="none";
+            document.querySelector("li.portf").style.border="1px solid";
+            document.querySelector("li.portf").style.borderRadius="8px 8px";
+            document.querySelector("li.portf").style.transition="0.5s"; 
+            document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba"; 
+    
         }
         else if(x.matches && y.matches && window.scrollY<1000){
             document.querySelector("li.About").style.border="none";
@@ -59,12 +75,22 @@ homeButton.addEventListener("mouseout", ()=>{
             homeButton.style.border="1px solid";
             homelink.style.color="skyblue";
         }
-        else if(n.matches && c.matches && window.scrollY>=300){
+        else if(n.matches && c.matches && window.scrollY>=300 && window.scrollY<=1100 ){
             document.querySelector("li.About").style.border="1px solid";
             document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.transition="0.5s";
             document.querySelector("li.About").style.boxShadow ="2px 5px 13px 5px #0985ba";
+            document.querySelector("li.portf").style.border="none";
+            document.querySelector("li.portf").style.boxShadow="none";    
             homeButton.style.border="none";
             homelink.style.color="white";
+        }
+        else if(m.matches && c.matches  || ml.matches && c.matches && window.scrollY>=4000){
+            document.querySelector("li.About").style.border="none";
+            document.querySelector("li.About").style.boxShadow ="none";
+            document.querySelector("li.portf").style.border="1px solid";
+            document.querySelector("li.portf").style.borderRadius="8px 8px";
+            document.querySelector("li.portf").style.transition="0.5s"; 
+            document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba"; 
         }
     })
