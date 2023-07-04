@@ -60,15 +60,14 @@ header{
     height:3em;
 }
 .homepagebutton{
-color:White;
+color:skyblue;
 border:1px solid;
 border-radius:8px 8px;
 transition:1s;
 }
-.homepagebutton:hover{
+.homepagebutton > a{
 color:skyblue;
 }
-
 .slashsymbol{
 padding-top:0.5em;
 }

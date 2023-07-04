@@ -23,13 +23,6 @@ else {
 homeButton.onclick = function(){
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 };
-homeButton.addEventListener("mouseover", ()=>{
-homelink.style.color="skyblue";
-homelink.style.transition = "1s";
-});
-homeButton.addEventListener("mouseout", ()=>{
-    homelink.style.color="white";
-    });
 
     aboutButton.onclick = function() {
         const page2= document.querySelector(".Aboutme");
@@ -66,14 +59,12 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.About>a").style.transition="1s";
-            homeButton.style.border="1px solid";
-            homelink.style.color="skyblue";   
+            homeButton.style.border="1px solid";  
         }
         else if(n.matches && c.matches && window.scrollY<500){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             homeButton.style.border="1px solid";
-            homelink.style.color="skyblue";
         }
         else if(n.matches && c.matches && window.scrollY>=300 && window.scrollY<=1100 ){
             document.querySelector("li.About").style.border="1px solid";
@@ -83,7 +74,6 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";    
             homeButton.style.border="none";
-            homelink.style.color="white";
         }
         else if(m.matches && c.matches  || ml.matches && c.matches && window.scrollY>=4000){
             document.querySelector("li.About").style.border="none";
