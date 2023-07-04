@@ -155,14 +155,15 @@ justify-content:center;
 background-color: #1d5b89;
 }
 .capstone-project{
+display:flex;
+flex-direction:column;
 margin-left:4em;
 width:26em;
+align-items:center;
 transition:1s;
-}
-.capstone-project:hover{
-    box-shadow: 0px 3px 10px 10px #2b9bcb;
+box-shadow: 0px 3px 10px 10px #2b9bcb;
     transform:scale(1.1);
-    }
+}
 .capstone-Image{
 background:url("Capstone-Bild.png");
 background-size:contain;
@@ -173,6 +174,12 @@ width:26rem;
 .app-description{
 color:skyblue;
 width:25em;
+}
+.Capstonebutton{
+width:8em;
+cursor:pointer;
+font-size:1em;
+letter-spacing: 2px;
 }
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
@@ -272,16 +279,19 @@ width:25em;
     height:125rem;
     }
     .capstone-project{
-    width:20em;
-    height:20em;
-    margin:0px;
+    width:54em;
+    height:auto;
+    margin:0 auto;
     }
     .app-description{
-    font-size:2.3em;
+    font-size:2.1em;
     }
     .capstone-Image{
-    width:54em;
+    width:53.8em;
     height:10em;
+    }
+    .Capstonebutton{
+        font-size:2.3em;
     }
 }
 @media (min-width: 768px) and (orientation: landscape){
