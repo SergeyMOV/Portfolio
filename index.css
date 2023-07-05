@@ -247,6 +247,9 @@ letter-spacing: 2px;
     nav ul li{
         padding:0.5em 0.8em;
         }
+    a.cv{
+    height:0;
+    }
     header h1{
     font-size:5em;
     padding-top:0.2em;
@@ -262,7 +265,7 @@ letter-spacing: 2px;
         transform: scaleX(0); 
     }
     .Aboutme{
-    height:135rem;
+    height:138rem;
     }
     .Personalphotomini{
     font-size:3em;
