@@ -430,6 +430,7 @@ letter-spacing: 2px;
         align-items: self-end;
         justify-content: center;
         margin-top:1.2em;
+        height:100vh;
         }
         .mainphoto{
             min-height:48.4em;
@@ -439,5 +440,8 @@ letter-spacing: 2px;
                 }
                 .Aboutme{
                     height:70em;
+                    }
+                    .portfolio{
+                    height:100vh;
                     }
 }
