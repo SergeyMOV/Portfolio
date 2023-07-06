@@ -388,7 +388,7 @@ letter-spacing: 2px;
             align-items: self-end;
             justify-content: center;
             margin-top:0;
-            height:100vh;
+            height:60rem;
             }
             .personalinfo p{
             width:31.7em;
@@ -423,7 +423,7 @@ letter-spacing: 2px;
             height:60em;
             }
             .portfolio{
-                height:100vh;
+                height:62rem;
                 }
 }
 @media (min-width: 1600px) and (orientation: landscape){
@@ -434,7 +434,7 @@ letter-spacing: 2px;
         align-items: self-end;
         justify-content: center;
         margin-top:1.2em;
-        height:100vh;
+        height:60rem;
         }
         .mainphoto{
             min-height:48.4em;
@@ -446,6 +446,6 @@ letter-spacing: 2px;
                     height:70em;
                     }
                     .portfolio{
-                    height:100vh;
+                    height:62rem;
                     }
 }
