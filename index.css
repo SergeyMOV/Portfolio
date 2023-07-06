@@ -377,7 +377,7 @@ letter-spacing: 2px;
     width:100%;
     }
     .mainphoto{
-        min-height:39.4em;
+        min-height:45em;
         }
         .slashsymbol{
             padding-top:0.3em;
@@ -388,6 +388,7 @@ letter-spacing: 2px;
             align-items: self-end;
             justify-content: center;
             margin-top:0;
+            height:100vh;
             }
             .personalinfo p{
             width:31.7em;
@@ -421,6 +422,9 @@ letter-spacing: 2px;
             .Aboutme{
             height:60em;
             }
+            .portfolio{
+                height:100vh;
+                }
 }
 @media (min-width: 1600px) and (orientation: landscape){
 
