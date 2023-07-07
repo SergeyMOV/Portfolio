@@ -44,7 +44,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none"; 
             homeButton.style.border="none";
-            homelink.style.color="white";
+
         }
         else if(x.matches && y.matches && window.scrollY>=3000){
             document.querySelector("li.About").style.border="none";
@@ -55,7 +55,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba"; 
     
         }
-        else if(x.matches && y.matches && window.scrollY<1000){
+        else if(x.matches && y.matches && window.scrollY<=1000){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.About>a").style.transition="1s";
@@ -66,7 +66,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.About").style.boxShadow ="none";
             homeButton.style.border="1px solid";
         }
-        else if(n.matches && c.matches && window.scrollY>=300 && window.scrollY<=1100 ){
+        else if(n.matches && c.matches & window.scrollY>=300 && window.scrollY<=1800 ){
             document.querySelector("li.About").style.border="1px solid";
             document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.transition="0.5s";
@@ -75,7 +75,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.portf").style.boxShadow="none";    
             homeButton.style.border="none";
         }
-        else if(m.matches && c.matches  || ml.matches && c.matches && window.scrollY>=4000){
+        else if(m.matches && c.matches  || ml.matches && c.matches && window.scrollY>=1800){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
