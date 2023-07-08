@@ -44,6 +44,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none"; 
             homeButton.style.border="none";
+            homelink.style.color="white";
 
         }
         else if(x.matches && y.matches & window.scrollY>=3700){
@@ -59,7 +60,8 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.About>a").style.transition="1s";
-            homeButton.style.border="1px solid";  
+            homeButton.style.border="1px solid";
+            homelink.style.color="skyblue";
         }
         else if(n.matches && c.matches && window.scrollY<500){
             document.querySelector("li.About").style.border="none";
