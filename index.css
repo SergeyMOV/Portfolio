@@ -291,8 +291,8 @@ transition:1s;
     height:10em;
     }
     .capstone-project{
-        height:28rem;
-        width:54em;
+        height:auto;
+        width:auto;
         margin:0 auto;
     }
     .Capstonebutton{
