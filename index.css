@@ -300,6 +300,7 @@ transition:1s;
         background-color:rgb(67, 88, 255);
         color:rgb(202, 227, 255);
         box-shadow:9px 9px rgb(202, 227, 255);
+        transition:0.3s;
     }
     .Capstonebutton:active{
             transform: scale(0.9);
