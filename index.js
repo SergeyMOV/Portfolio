@@ -30,7 +30,7 @@ homeButton.onclick = function(){
         document.querySelector("li.About").style.borderRadius="8px 8px"
 };
 portfolioButton.onclick = function(){
-const page3= document.querySelector(".capstone-Image");
+const page3= document.querySelector(".portfolio");
 page3.scrollIntoView(({behavior:"smooth"}));
 document.querySelector("li.About").style.borderRadius="8px 8px"
 };

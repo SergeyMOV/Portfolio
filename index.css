@@ -183,6 +183,10 @@ border-radius: 8px 8px;
 letter-spacing: 2px;
 transition:1s;
 }
+.Contact{
+background-color: #1f3d52;
+height:60em;
+}
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
     width:110%;
@@ -464,7 +468,7 @@ transition:1s;
             height:60em;
             }
             .portfolio{
-                height:62rem;
+                height:51rem;
                 }
                 .Capstonebutton:hover{
                     box-shadow:7px 7px rgb(202, 227, 255);
