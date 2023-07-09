@@ -58,6 +58,7 @@ header{
     justify-content:space-around;
     align-items:center;
     height:3em;
+    transition:0.2s;
 }
 .homepagebutton{
 color:skyblue;
@@ -195,7 +196,6 @@ height:60em;
     display:flex;
     flex-direction:column;
     height:auto;
-    transition:2s;
     background:linear-gradient(#081b29, #0b3351);
     }
     .Certificate{
