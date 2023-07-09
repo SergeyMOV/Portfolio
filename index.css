@@ -196,7 +196,6 @@ height:60em;
     display:flex;
     flex-direction:column;
     height:auto;
-    background:linear-gradient(#081b29, #0b3351);
     }
     .Certificate{
         font-size:2.7em;
