@@ -27,12 +27,12 @@ homeButton.onclick = function(){
     aboutButton.onclick = function() {
         const page2= document.querySelector(".Aboutme");
         page2.scrollIntoView({behavior: "smooth"});
-        document.querySelector("li.About").style.borderRadius="8px 8px"
+        document.querySelector("li.About").style.borderRadius="8px 8px";
 };
 portfolioButton.onclick = function(){
 const page3= document.querySelector(".portfolio");
 page3.scrollIntoView(({behavior:"smooth"}));
-document.querySelector("li.About").style.borderRadius="8px 8px"
+document.querySelector("li.About").style.borderRadius="8px 8px";
 };
 
     document.addEventListener("scroll", ()=>{
@@ -70,7 +70,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px"
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             homeButton.style.border="1px solid";
-            header.style.backgroundColor="#0b3351";
+            header.style.backgroundColor="transparent";
         }
         else if(n.matches && c.matches & window.scrollY>=300 && window.scrollY<=1800){
             document.querySelector("li.About").style.border="1px solid";
