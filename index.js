@@ -48,7 +48,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px";
             header.style.backgroundColor="#0b3351";
 
         }
-        else if(x.matches && y.matches & window.scrollY>=4200){
+        else if(x.matches && y.matches & window.scrollY>=4000){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
