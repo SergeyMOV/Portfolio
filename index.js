@@ -70,6 +70,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             homeButton.style.border="1px solid";
+            homelink.style.color="skyblue";
             header.style.backgroundColor="transparent";
         }
         else if(n.matches && c.matches & window.scrollY>=700 && window.scrollY<=1500){
