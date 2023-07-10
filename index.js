@@ -48,14 +48,14 @@ document.querySelector("li.About").style.borderRadius="8px 8px";
             header.style.backgroundColor="#0b3351";
 
         }
-        else if(x.matches && y.matches & window.scrollY>=3700){
+        else if(x.matches && y.matches & window.scrollY>=4200){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
             document.querySelector("li.portf").style.borderRadius="8px 8px";
             document.querySelector("li.portf").style.transition="0.5s"; 
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba";
-            header.style.background="none";
+            header.style.backgroundColor="#1d5b89";
     
         }
         else if(x.matches && y.matches && window.scrollY<=1000){
