@@ -4,6 +4,7 @@ const homelink = document.querySelector('[data-js="homelink"]');
 const certificateButton = document.querySelector('[data-js="Certificate"]');
 const portfolioButton = document.querySelector(".portf");
 const cvButton = document.querySelector('[data-js="CV"]');
+const contactButton=document.querySelector('[data-js="contactLink"]');
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
@@ -32,8 +33,13 @@ homeButton.onclick = function(){
 portfolioButton.onclick = function(){
 const page3= document.querySelector(".portfolio");
 page3.scrollIntoView(({behavior:"smooth"}));
-document.querySelector("li.About").style.borderRadius="8px 8px";
+document.querySelector("li.portf").style.borderRadius="8px 8px";
 };
+
+contactButton.onclick = function(){
+const page4 = document.querySelector(".contact");
+page4.scrollIntoView(({behavior:"smooth"}));
+}
 
     document.addEventListener("scroll", ()=>{
         if(x.matches && y.matches && window.scrollY >=1550 && window.scrollY<2800){
@@ -53,7 +59,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
             document.querySelector("li.portf").style.borderRadius="8px 8px";
-            document.querySelector("li.portf").style.transition="0.5s"; 
+            document.querySelector("li.portf").style.transition="1s"; 
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba";
             header.style.backgroundColor="#1d5b89";
     
@@ -76,7 +82,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px";
         else if(n.matches && c.matches & window.scrollY>=700 && window.scrollY<=1500){
             document.querySelector("li.About").style.border="1px solid";
             document.querySelector("li.About").style.borderRadius="8px 8px";
-            document.querySelector("li.About").style.transition="0.5s";
+            document.querySelector("li.About").style.transition="1s";
             document.querySelector("li.About").style.boxShadow ="2px 5px 13px 5px #0985ba";
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";    
@@ -86,6 +92,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
+            document.querySelector("li.portf").style.transition="1s";
             document.querySelector("li.portf").style.borderRadius="8px 8px";
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba";
         }
@@ -94,7 +101,7 @@ document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
             document.querySelector("li.portf").style.borderRadius="8px 8px";
-            document.querySelector("li.portf").style.transition="0.5s"; 
+            document.querySelector("li.portf").style.transition="2s"; 
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba"; 
         }
     })
