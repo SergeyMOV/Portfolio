@@ -51,18 +51,18 @@
 <section class="contact">
 <h2 class="heading-title">Contact&nbsp;<span>Me!</span></h2>
 
-<form action="#">
+<form  action = "https://formspree.io/f/mqkvkdjl"  method="POST">
 <section class="inputs-section">
-<input type="text" placeholder="Full Name">
-<input type="email" placeholder="Email Address">
+<input name="name" type="text" placeholder="Full Name" required>
+<input name="email" class="email" type="email" placeholder="Email Address" required>
 </section>
 <section class="inputs-section">
-<input type="number" placeholder="Mobile">
-<input type="email" placeholder="Email Subject">
+<input name="mobilenumber" type="number" placeholder="Mobile">
+<input name="subject"  type="text" placeholder="Subject">
 </section>
-<textarea name=""  cols="30" rows="10" placeholder="Your Message"></textarea>
+<textarea name="textmessage" data-js="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
 <br>
-<input type="submit" value="Send Message" class="btn">
+<button type="submit" class="btn">Send Message</button>
 </form>
 </section>
 </div>

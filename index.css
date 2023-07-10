@@ -227,6 +227,7 @@ background-color:rgb(67, 88, 255);
 font-size:1.3em;
 letter-spacing: 2px;
 border-radius:0.5em;
+border:none;
 cursor:pointer;
 transition:1s;
 width:10em;
