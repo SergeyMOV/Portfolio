@@ -315,7 +315,7 @@ height:60em;
 
     .introduction{
     margin:0;
-    align-items:self-end;
+    align-items:center;
     height:46em;
     }
     nav ul li a{
@@ -335,6 +335,9 @@ height:60em;
         box-shadow:0px 0px;
         transform:scale(0.9);
         }
+    .capstone-project{
+    height:14em;
+    }
     nav ul li a:hover:after{
         transform: scaleX(0); 
     }
