@@ -415,6 +415,12 @@ height:60em;
                 transition:none;
             
         }
+    .portfolio{
+    height:56em;
+    }
+    .Aboutme{
+    height:56em;
+    }
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{
