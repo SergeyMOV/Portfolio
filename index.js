@@ -114,7 +114,7 @@ contactButton.style.borderRadius="8px 8px";
             document.querySelector("li.portf").style.borderRadius="8px 8px";
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba";
         }
-        else if(n.matches && c.matches && window.scrollY>=2600){
+        else if(n.matches && c.matches && window.scrollY>=2300 && window.scrollY<=2500){
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";
             contactButton.style.border="1px solid";
@@ -128,5 +128,12 @@ contactButton.style.borderRadius="8px 8px";
             document.querySelector("li.portf").style.borderRadius="8px 8px";
             document.querySelector("li.portf").style.transition="2s"; 
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba"; 
+        }
+        else if(m.matches && c.matches && window.scrollY>=2600 && window.scrollY<=2800){
+            document.querySelector("li.portf").style.border="none";
+            document.querySelector("li.portf").style.boxShadow="none";
+            contactButton.style.border="1px solid";
+            contactButton.style.borderRadius="8px 8px";
+            contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
         }
     })
