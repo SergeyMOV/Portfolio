@@ -234,6 +234,46 @@ width:10em;
 height:1.5em;
 }
 
+.icons{
+width:30.8em;
+}
+.icons a i{
+font-size:1.8em;
+}
+.icons a{
+position:relative;
+display:inline-flex;
+justify-content: center;
+align-items:center;
+width:3em;
+height:3em;
+background:transparent;
+border:2px solid #00abf0;
+border-radius:50%;
+font-size:20px;
+color:#00abf0;
+text-decoration:none;
+margin-left:0.9em;
+margin-top:0.5em;
+z-index:1;
+overflow:hidden;
+}
+.icons a::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:0;
+height:100%;
+background:#09487c;
+z-index:-1;
+transition:.5s;
+}
+
+.icons a:hover::before{
+width:100%;
+}
+
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
     width:110%;
@@ -389,6 +429,19 @@ height:1.5em;
     transform:scaleX(0.8);
     box-shadow:none;
     color:black;
+    }
+    .icons{
+    width:38em;
+    }
+
+    .icons a i{
+    font-size:3.8em;
+    }
+
+    .icons a{
+    width:7em;
+    height:7em;
+    margin-left:2em;
     }
 }
 @media (min-width: 768px) and (orientation: landscape){
@@ -591,6 +644,9 @@ height:1.5em;
                     transition:none;
                     box-shadow:none;
                     color:black;
+                    }
+                    .icons{
+                    width:40.5em;
                     }
 }
 @media (min-width: 1600px) and (orientation: landscape){
