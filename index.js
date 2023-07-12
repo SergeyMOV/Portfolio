@@ -103,25 +103,25 @@ contactButton.style.borderRadius="8px 8px";
             homeButton.style.border="none";
         }
         else if(n.matches && c.matches && window.scrollY>1500 && window.scrollY<=2200){
+            contactButton.style.border="none";
+            contactButton.style.borderRadius="none";
+            contactButton.style.boxShadow="none";
+            contactButton.style.transition="1s";
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
             document.querySelector("li.portf").style.transition="1s";
             document.querySelector("li.portf").style.borderRadius="8px 8px";
             document.querySelector("li.portf").style.boxShadow ="2px 5px 13px 5px #0985ba";
-            contactButton.style.border="none";
-            contactButton.style.borderRadius="none";
-            contactButton.style.boxShadow="none";
-            contactButton.style.transition="1s";
         }
-        else if(n.matches && c.matches && window.scrollY>=2200){
+        else if(n.matches && c.matches && window.scrollY>=2600){
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";
             contactButton.style.border="1px solid";
             contactButton.style.borderRadius="8px 8px";
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
         }
-        else if(m.matches && c.matches && window.scrollY>=1800 || ml.matches && c.matches && window.scrollY>=1800){
+        else if(m.matches && c.matches && window.scrollY>=1700 && window.scrollY<=1750|| ml.matches && c.matches && window.scrollY>=1700 && window.scrollY<=1750){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector("li.portf").style.border="1px solid";
