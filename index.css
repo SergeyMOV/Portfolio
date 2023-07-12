@@ -509,6 +509,12 @@ height:1.5em;
         transform:scale(1.1);
         color:rgb(202, 227, 255);
     }
+    .btn:active{
+        transform:scale(0.9);
+        transition:none;
+        box-shadow:none;
+        color:black;
+        }
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{
@@ -580,6 +586,12 @@ height:1.5em;
                     transform:scale(1.1);
                     color:rgb(202, 227, 255);
                 }
+                .btn:active{
+                    transform:scale(1);
+                    transition:none;
+                    box-shadow:none;
+                    color:black;
+                    }
 }
 @media (min-width: 1600px) and (orientation: landscape){
 
@@ -615,4 +627,10 @@ height:1.5em;
                             transition:none;
                         
                     }
+                    .btn:active{
+                        transform:scale(0.9);
+                        transition:none;
+                        box-shadow:none;
+                        color:black;
+                        }
 }
