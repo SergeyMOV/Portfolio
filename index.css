@@ -299,7 +299,7 @@ transition:.5s;
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
-    height:108rem;
+    height:110rem;
     margin:0;
     }
     .personalfoto{
@@ -353,7 +353,7 @@ transition:.5s;
         transform: scaleX(0); 
     }
     .Aboutme{
-    height:125rem;
+    height:127rem;
     }
     .Personalphotomini{
     font-size:3em;
@@ -393,7 +393,7 @@ transition:.5s;
         
     }
     .contact{
-    height:120rem;
+    height:122rem;
     }
     .contact .inputs-section{
         flex-direction: column;
