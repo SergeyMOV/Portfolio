@@ -299,7 +299,7 @@ transition:.5s;
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
-    height:110rem;
+    height:112rem;
     margin:0;
     }
     .personalfoto{
@@ -366,7 +366,7 @@ transition:.5s;
     .portfolio{
     display:flex;
     justify-content: center;
-    height:120rem;
+    height:124rem;
     }
     .app-description{
     font-size:2.1em;
@@ -393,7 +393,7 @@ transition:.5s;
         
     }
     .contact{
-    height:122rem;
+    height:120rem;
     }
     .contact .inputs-section{
         flex-direction: column;
