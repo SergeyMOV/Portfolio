@@ -366,7 +366,7 @@ transition:.5s;
     .portfolio{
     display:flex;
     justify-content: center;
-    height:124rem;
+    height:127rem;
     }
     .app-description{
     font-size:2.1em;
@@ -393,7 +393,7 @@ transition:.5s;
         
     }
     .contact{
-    height:120rem;
+    height:122rem;
     }
     .contact .inputs-section{
         flex-direction: column;
