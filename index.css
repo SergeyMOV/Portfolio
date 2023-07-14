@@ -223,7 +223,7 @@ width:29%;
 }
 .btn{
 margin-top:3rem;
-background-color:rgb(67, 88, 255);
+background-color:#0f85b5;
 font-size:1.3em;
 letter-spacing: 2px;
 border-radius:0.5em;
@@ -690,6 +690,9 @@ transition:.5s;
                             box-shadow: 0px 0px;
                             transition:none;
                         
+                    }
+                    .contact{
+                    height:62em;
                     }
                     .btn:active{
                         transform:scale(0.9);
