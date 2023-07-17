@@ -302,12 +302,20 @@ transition:.5s;
   }
   
   .employee-app-card-back {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
   }
   .employee-app-card-back h1{
    font-size:1.4em;
+   margin-top:0;
+  }
+  .employee-app-card-back p{
+   width:25em;
   }
 
 @media (min-width: 420px) and (orientation: portrait) {
