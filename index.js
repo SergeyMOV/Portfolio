@@ -48,7 +48,6 @@ contactButton.style.borderRadius="8px 8px";
     }
 };
 
-
     document.addEventListener("scroll", ()=>{
         if(x.matches && y.matches && window.scrollY >=1550 && window.scrollY<2800){
             document.querySelector("li.About").style.border="1px solid white";

@@ -570,6 +570,17 @@ transition:.5s;
             .employee-app-card-inner{
             box-shadow:2px 9px 33px 10px #1c1f20;
             }
+            .employee-app-card-back button{
+            width: 8em;
+            color: white;
+            cursor: pointer;
+            background: #23a5da;
+            font-size: 1.1em;
+            box-shadow: 7px 6px #afcfe4;
+            border-radius: 8px 8px;
+            letter-spacing: 2px;
+            transition: 1s;
+            }
 }
 
 @media (min-width: 1024px) and (orientation: landscape){
