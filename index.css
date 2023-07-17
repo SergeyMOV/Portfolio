@@ -306,6 +306,9 @@ transition:.5s;
     color: white;
     transform: rotateY(180deg);
   }
+  .employee-app-card-back h1{
+   font-size:1.4em;
+  }
 
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
