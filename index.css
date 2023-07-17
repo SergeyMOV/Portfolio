@@ -317,6 +317,17 @@ transition:.5s;
   .employee-app-card-back p{
    width:25em;
   }
+  .employee-app-card-back button{
+    width: 8em;
+    color: white;
+    cursor: pointer;
+    background: #23a5da;
+    font-size: 1.1em;
+    box-shadow: 7px 6px #afcfe4;
+    border-radius: 8px 8px;
+    letter-spacing: 2px;
+    transition: 1s;
+    }
 
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
@@ -499,6 +510,9 @@ transition:.5s;
                 margin-top:6em;
                 margin-left:0;
                 }
+                .employee-app-card-back button{
+                    font-size:1.3em;
+                    }
 }
 @media (min-width: 768px) and (orientation: landscape){
 
@@ -569,17 +583,6 @@ transition:.5s;
             }
             .employee-app-card-inner{
             box-shadow:2px 9px 33px 10px #1c1f20;
-            }
-            .employee-app-card-back button{
-            width: 8em;
-            color: white;
-            cursor: pointer;
-            background: #23a5da;
-            font-size: 1.1em;
-            box-shadow: 7px 6px #afcfe4;
-            border-radius: 8px 8px;
-            letter-spacing: 2px;
-            transition: 1s;
             }
 }
 
