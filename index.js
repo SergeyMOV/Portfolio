@@ -5,6 +5,7 @@ const certificateButton = document.querySelector('[data-js="Certificate"]');
 const portfolioButton = document.querySelector(".portf");
 const cvButton = document.querySelector('[data-js="CV"]');
 const contactButton=document.querySelector('[data-js="contactLink"]');
+const projectEmployeeButton=document.querySelector(".employee-app-card-front")
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
@@ -41,6 +42,12 @@ const page4 = document.querySelector(".contact");
 page4.scrollIntoView(({behavior:"smooth"}));
 contactButton.style.borderRadius="8px 8px";
 }
+    projectEmployeeButton.onclick = function(){
+    if(x.matches || n.matches){
+    document.querySelector(".employee-app-card-inner").style.transform="rotateY(180deg)";
+    }
+};
+
 
     document.addEventListener("scroll", ()=>{
         if(x.matches && y.matches && window.scrollY >=1550 && window.scrollY<2800){
