@@ -6,6 +6,7 @@ const portfolioButton = document.querySelector(".portf");
 const cvButton = document.querySelector('[data-js="CV"]');
 const contactButton=document.querySelector('[data-js="contactLink"]');
 const projectEmployeeButton=document.querySelector(".employee-app-card-front")
+const employerAppInner = document.querySelector(".employee-app-card-inner")
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
@@ -44,9 +45,16 @@ contactButton.style.borderRadius="8px 8px";
 }
     projectEmployeeButton.onclick = function(){
     if(x.matches || n.matches){
-    document.querySelector(".employee-app-card-inner").style.transform="rotateY(180deg)";
+    employerAppInner.style.transform="rotateY(180deg)";
     }
 };
+document.addEventListener('click', function handleClickOutsideBox(event) {
+    const box =  document.querySelector(".employee-app-card-inner");
+  
+    if (!box.contains(event.target) && y.matches ||!box.contains(event.target) && n.matches && c.matches && !m.matches  ) {
+      box.style.transform = 'rotateY(0deg)';
+    }
+  });
 
     document.addEventListener("scroll", ()=>{
         if(x.matches && y.matches && window.scrollY >=1550 && window.scrollY<2800){

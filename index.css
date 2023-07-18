@@ -800,4 +800,7 @@ transition:.5s;
                         .icons a:hover::before{
                             width:100%;
                             }
+                            .employee-app-card:hover .employee-app-card-inner {
+                                transform: rotateY(180deg);
+                              }
 }
