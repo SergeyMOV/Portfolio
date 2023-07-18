@@ -328,6 +328,9 @@ transition:.5s;
     letter-spacing: 2px;
     transition: 1s;
     }
+    .employee-app-card:hover .employee-app-card-inner {
+        transform: rotateY(180deg);
+      }
 
 @media (min-width: 420px) and (orientation: portrait) {
     .main{
@@ -657,9 +660,6 @@ transition:.5s;
         .icons a:hover::before{
             width:100%;
             }
-            .employee-app-card:hover .employee-app-card-inner {
-                transform: rotateY(180deg);
-              }
               .employee-app-card{
                 margin-top:0;
                 margin-left:6em;
@@ -750,9 +750,6 @@ transition:.5s;
                     .icons a:hover::before{
                         width:100%;
                         }
-                        .employee-app-card:hover .employee-app-card-inner {
-                            transform: rotateY(180deg);
-                          }
 }
 @media (min-width: 1600px) and (orientation: landscape){
 
