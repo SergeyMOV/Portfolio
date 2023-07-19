@@ -512,7 +512,14 @@ transition:.5s;
                 }
                 .employee-app-card-back button{
                     font-size:1.3em;
+                    box-shadow: 9px 9px #afcfe4;
+                    color:rgb(229 233 238);
+                    transition:0.8s;
                     }
+                .employee-app-card-back button:active{
+                    transform:scaleX(0.8);
+                    box-shadow:none;
+                }
 }
 @media (min-width: 768px) and (orientation: landscape){
 
@@ -663,10 +670,23 @@ transition:.5s;
                 }
                 .employee-app-card-back button{
                     box-shadow: none;
+                    background-color: white;
+                    color:black;
                     }
                     .employee-app-card:hover .employee-app-card-inner {
                         transform: rotateY(180deg);
-                      }
+                    }
+                    .employee-app-button:hover{
+                        box-shadow:7px 7px rgb(202, 227, 255);
+                        transform:scale(1.1);
+                        background-color:#23a5da;
+                        
+                    }
+                   .employee-app-button:active{
+                    transform:scale(1);
+                    transition:none;
+                    box-shadow:none;
+                   } 
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{

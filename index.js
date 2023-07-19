@@ -51,7 +51,7 @@ contactButton.style.borderRadius="8px 8px";
 document.addEventListener('click', function handleClickOutsideBox(event) {
     const box =  document.querySelector(".employee-app-card-inner");
   
-    if (!box.contains(event.target) && y.matches ||!box.contains(event.target) && n.matches && c.matches && !m.matches  ) {
+    if (!box.contains(event.target) && y.matches ||!box.contains(event.target) && n.matches && c.matches && !m.matches) {
       box.style.transform = 'rotateY(0deg)';
     }
   });
