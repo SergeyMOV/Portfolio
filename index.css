@@ -682,6 +682,9 @@ transition:.5s;
                         background-color:#23a5da;
                         
                     }
+                    .employee-app-button{
+                        margin-top:1.5em;
+                        }
                    .employee-app-button:active{
                     transform:scale(1);
                     transition:none;
