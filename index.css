@@ -147,6 +147,45 @@ width:49em;
     transition:0.8s;
     letter-spacing:2px;
     }
+.Skills{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    height:50em;
+    background-color: #0c426b;
+}
+.Skills h1{
+    display: flex;
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: skyblue;
+    justify-content:center;
+    margin: 0;
+}
+.skills-list{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap:wrap;
+}
+.icons-list-1{
+display:flex;
+width:60em;
+justify-content: space-between;
+}
+.icons-list-2{
+display:flex;
+justify-content: space-between;
+width:75em;
+margin-left:3em;
+}
+.icons-list-2 img{
+height:10em;
+}
+.skill-icons{
+height:11em;
+}
 .portfolio{
 display:flex;
 height:50em;
@@ -520,6 +559,44 @@ transition:.5s;
                     transform:scaleX(0.8);
                     box-shadow:none;
                 }
+                .Skills{
+                height:125em;
+                justify-content: space-evenly;
+                }
+                .icons-list-2{
+                width:43em;
+                flex-direction: row-reverse;
+                margin-left:15em;
+                margin-top:4em;
+                }
+                .icons-list-2 img{
+                height:12em;
+                margin-top:-8em;
+                }
+                .Skills h1{
+                font-size:6em;
+                margin-top:2em;
+                }
+                .icons-list-1 img{
+                height:19em;
+                margin-top:4em;
+                }
+                .icons-list-1{
+                width:44em;
+                flex-wrap:wrap;
+                }
+                #js-logo{
+                    margin-left:2.5em;
+                    }
+                #react-icon{
+                position:absolute;
+                margin-top: -33em;
+                height: 18em;
+                }
+                #next-js-logo{
+                margin-left:9em;
+                margin-right:3em;
+                }
 }
 @media (min-width: 768px) and (orientation: landscape){
 
@@ -533,7 +610,7 @@ transition:.5s;
     }
     .mainphoto{
     min-height:30em;
-    max-height:31em;
+    max-height:30em;
     }
     .Certificate{
         box-shadow:8px 8px;
@@ -591,6 +668,18 @@ transition:.5s;
             .employee-app-card-inner{
             box-shadow:2px 9px 33px 10px #1c1f20;
             }
+            .icons-list-2{
+            width:57em;
+            }
+            .icons-list-1{
+            justify-content: space-evenly;
+            }
+            .skill-icons{
+            height:9em;
+            }
+            .icons-list-2 img{
+                height:8em;
+                }
 }
 
 @media (min-width: 1024px) and (orientation: landscape){
@@ -690,6 +779,18 @@ transition:.5s;
                     transition:none;
                     box-shadow:none;
                    } 
+                   .icons-list-1{
+                    justify-content: space-between;
+                    }
+                    .icons-list-2{
+                        width:66em;
+                        }
+                        .skill-icons{
+                            height:11em;
+                            }
+                            .icons-list-2 img{
+                                height:11em;
+                                }
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{
@@ -776,6 +877,9 @@ transition:.5s;
                         .employee-app-card:hover .employee-app-card-inner {
                             transform: rotateY(180deg);
                           }
+                          .icons-list-1{
+                            justify-content: space-between;
+                            }
 }
 @media (min-width: 1600px) and (orientation: landscape){
 
