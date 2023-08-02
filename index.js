@@ -129,7 +129,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
         }
-        else if(n.matches && c.matches & window.scrollY>=700 && window.scrollY<=1000){
+        else if(n.matches && c.matches && window.scrollY>=900 && window.scrollY<=1250){
             document.querySelector("li.About").style.border="1px solid";
             document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.transition="1s";
@@ -140,7 +140,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
         }
-        else if(n.matches && c.matches && window.scrollY>=1500 && window.scrollY<=1800){
+        else if(n.matches && c.matches && window.scrollY>=1900 && window.scrollY<=2200){
             contactButton.style.border="none";
             contactButton.style.borderRadius="none";
             contactButton.style.boxShadow="none";
@@ -156,7 +156,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector("li.portf").style.boxShadow ="none";
             
         }
-        else if(n.matches && c.matches && window.scrollY>=2300 && window.scrollY<=2800){
+        else if(n.matches && c.matches && window.scrollY>=2800 && window.scrollY<=3100){
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
             document.querySelector('li.portf').style.border="1px solid";
@@ -168,14 +168,14 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.boxShadow="none";
             contactButton.style.transition="1s";
         }
-        else if(n.matches && c.matches && window.scrollY>=3000 && window.scrollY<=3200){
+        else if(n.matches && c.matches && window.scrollY>=3600 && window.scrollY<=3900){
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";
             contactButton.style.border="1px solid";
             contactButton.style.borderRadius="8px 8px";
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
         }
-        else if(m.matches && c.matches && window.scrollY>=1700 && window.scrollY<=1850|| ml.matches && c.matches && window.scrollY>=1700 && window.scrollY<=1850){
+        else  if(m.matches && c.matches && window.scrollY>=1700 &&  window.scrollY<3000 ){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector('[data-js="skillsLink"]').style.border="1px solid";
@@ -183,9 +183,22 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector('[data-js="skillsLink"]').style.transition="2s"; 
             document.querySelector('[data-js="skillsLink"]').style.boxShadow ="2px 5px 13px 5px #0985ba"; 
             document.querySelector("li.portf").style.border="none";
-            document.querySelector("li.portf").style.boxShadow="none";
+            document.querySelector("li.portf").style.borderRadius="none"; 
+            document.querySelector("li.portf").style.boxShadow ="none";
         }
-        else if(m.matches && c.matches && window.scrollY>=3000 || ml.matches && c.matches && window.scrollY>=3000){
+        else if(m.matches && c.matches && window.scrollY>=3500 && window.scrollY<=3800|| ml.matches && c.matches && window.scrollY>3500 && window.scrollY<=3800)
+            {
+            document.querySelector('li.portf').style.border="1px solid";
+            document.querySelector('li.portf').style.borderRadius="8px 8px";
+            document.querySelector('li.portf').style.transition="2s"; 
+            document.querySelector('li.portf').style.boxShadow ="2px 5px 13px 5px #0985ba"; 
+            contactButton.style.border="none";
+            contactButton.style.borderRadius="none";
+            contactButton.style.boxShadow="none";
+            contactButton.style.transition="1s";
+            
+            }
+        else if(m.matches && c.matches && window.scrollY>=4900 || ml.matches && c.matches && window.scrollY>=5800){
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";
             contactButton.style.border="1px solid";

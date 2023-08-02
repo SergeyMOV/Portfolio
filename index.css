@@ -632,7 +632,7 @@ transition:.5s;
     .introduction{
     margin:0;
     align-items:center;
-    height:46em;
+    height:56em;
     }
     nav ul li a{
     font-size:1.1em;
@@ -689,6 +689,10 @@ transition:.5s;
             .portfolio{
             display:flex;
             flex-direction:column;
+            height:60em;
+            }
+            .Aboutme{
+            height:60em;
             }
             .employee-app-card{
             margin-top:4em;
