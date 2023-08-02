@@ -175,7 +175,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.borderRadius="8px 8px";
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
         }
-        else  if(m.matches && c.matches && window.scrollY>=1700 &&  window.scrollY<3000 ){
+        else  if(m.matches && c.matches && window.scrollY>=1700 &&  window.scrollY<=2000 || ml.matches && window.scrollY>=2200 && window.scrollY<=2400){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector('[data-js="skillsLink"]').style.border="1px solid";
@@ -186,8 +186,10 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector("li.portf").style.borderRadius="none"; 
             document.querySelector("li.portf").style.boxShadow ="none";
         }
-        else if(m.matches && c.matches && window.scrollY>=3500 && window.scrollY<=3800|| ml.matches && c.matches && window.scrollY>3500 && window.scrollY<=3800)
+        else if(m.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3300|| ml.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3200)
             {
+                document.querySelector('[data-js="skillsLink"]').style.border="none";
+            document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
             document.querySelector('li.portf').style.border="1px solid";
             document.querySelector('li.portf').style.borderRadius="8px 8px";
             document.querySelector('li.portf').style.transition="2s"; 
@@ -204,5 +206,14 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.border="1px solid";
             contactButton.style.borderRadius="8px 8px";
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
+        }
+        else if(ml.matches && c.matches && window.scrollY>=700 && window.scrollY<=900){
+            homeButton.style.border="none";
+            document.querySelector("li.About").style.border="1px solid";
+            document.querySelector("li.About").style.borderRadius="8px 8px";
+            document.querySelector("li.About").style.transition="1s";
+            document.querySelector("li.About").style.boxShadow ="2px 5px 13px 5px #0985ba";
+            document.querySelector('[data-js="skillsLink"]').style.border="none";
+            document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
         }
     })
