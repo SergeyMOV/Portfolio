@@ -8,7 +8,6 @@ html{
 .main{
 background-color:#081b29;
 background-attachment: fixed;
-width:100%;
 }
 nav ul{
 color:white;
@@ -394,9 +393,6 @@ transition:.5s;
     }
 
 @media (min-width: 420px) and (orientation: portrait) {
-    .main{
-    width:110%;
-    }
     header{
     display:flex;
     flex-direction:column;
@@ -432,16 +428,16 @@ transition:.5s;
     }
     .personalinfo h2{
     width:100%;
-    font-size:6em;
+    font-size:9vw;
     text-align: center;
     }
     .personalinfo h3{
     width:auto;
     padding-top:0.2em;
-    font-size:4em;
+    font-size:7vw;
     }
     .personalinfo p{
-    font-size:2.3em;
+    font-size:4vw;
     width:20em;
     text-align:center;
     }
@@ -450,7 +446,7 @@ transition:.5s;
     padding-top:3.1em;
     }
     nav ul a{
-    font-size:3em;
+    font-size:5vw;
     }
     nav ul a.homelink{
     color:skyblue;
@@ -462,11 +458,11 @@ transition:.5s;
     height:0;
     }
     header h1{
-    font-size:5em;
+    font-size:8vw;
     padding-top:0.2em;
     }
     nav ul span{
-    font-size:2.5em;
+    font-size:4.3vw;
     padding-top:0.3em !important;
     }
     .homepagebutton{
@@ -629,6 +625,9 @@ transition:.5s;
 }
 @media (min-width: 760px) and (orientation: landscape){
 
+    .main{
+    width:114%;
+    }
     .introduction{
     margin:0;
     align-items:center;
