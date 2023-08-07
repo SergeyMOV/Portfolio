@@ -393,6 +393,9 @@ transition:.5s;
     }
 
 @media (min-width: 420px) and (orientation: portrait) {
+    .main{
+    width:100vw;
+    }
     header{
     display:flex;
     flex-direction:column;
