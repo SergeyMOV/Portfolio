@@ -626,7 +626,7 @@ transition:.5s;
                 margin-left:5em;
                 }
 }
-@media (min-width: 750px) and (orientation: landscape){
+@media (min-width: 755px){
     .introduction{
     margin:0;
     align-items:center;
@@ -636,7 +636,11 @@ transition:.5s;
     font-size:1.1em;
     }
     .mainphoto{
-    height:23em;
+    height: 23em;
+    border: 5px solid white;
+    border-radius: 50%;
+    background: #073c52;
+    padding-top:1em;
     }
     .Certificate{
         box-shadow:8px 8px;
@@ -666,8 +670,8 @@ transition:.5s;
             width:22.3em;
             }
             .personalinfo{
-            height:48vh;
-            width:65%;
+            height:37vh;
+            width:49%;
             }
             .personalfoto{
             width:50%;
@@ -753,6 +757,8 @@ transition:.5s;
 }
     .mainphoto{
         height:31em;
+    border: none;
+    background: none;
         }
         .Certificate{
             box-shadow:0px 0px;
