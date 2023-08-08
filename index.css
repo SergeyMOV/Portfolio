@@ -626,7 +626,7 @@ transition:.5s;
                 margin-left:5em;
                 }
 }
-@media (min-width: 755px){
+@media (min-width: 755px) and (orientation:landscape){
     .introduction{
     margin:0;
     align-items:center;
