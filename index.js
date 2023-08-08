@@ -11,7 +11,7 @@ const employerAppInner = document.querySelector(".employee-app-card-inner")
 const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 420px)");
 const y = window.matchMedia("(orientation: portrait)");
-const n = window.matchMedia("(min-width: 768px)");
+const n = window.matchMedia("(min-width: 750px)");
 const c = window.matchMedia("(orientation: landscape)");
 const m = window.matchMedia("(min-width: 1024px)");
 const ml = window.matchMedia("(min-width: 1280px)");
@@ -129,7 +129,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
         }
-        else if(n.matches && c.matches && window.scrollY>=900 && window.scrollY<=1250){
+        else if(n.matches && c.matches && window.scrollY>=700 && window.scrollY<=1250){
             document.querySelector("li.About").style.border="1px solid";
             document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.transition="1s";
@@ -140,7 +140,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
         }
-        else if(n.matches && c.matches && window.scrollY>=1900 && window.scrollY<=2200){
+        else if(n.matches && c.matches && window.scrollY>=1700 && window.scrollY<=2200){
             contactButton.style.border="none";
             contactButton.style.borderRadius="none";
             contactButton.style.boxShadow="none";
@@ -156,7 +156,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector("li.portf").style.boxShadow ="none";
             
         }
-        else if(n.matches && c.matches && window.scrollY>=2800 && window.scrollY<=3100){
+        else if(n.matches && c.matches && window.scrollY>=2600 && window.scrollY<=3100){
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
             document.querySelector('li.portf').style.border="1px solid";

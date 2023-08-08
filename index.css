@@ -626,22 +626,17 @@ transition:.5s;
                 margin-left:5em;
                 }
 }
-@media (min-width: 760px) and (orientation: landscape){
-
-    .main{
-    width:114%;
-    }
+@media (min-width: 750px) and (orientation: landscape){
     .introduction{
     margin:0;
     align-items:center;
-    height:56em;
+    height:48em;
     }
     nav ul li a{
     font-size:1.1em;
     }
     .mainphoto{
-    min-height:30em;
-    max-height:30em;
+    height:23em;
     }
     .Certificate{
         box-shadow:8px 8px;
@@ -661,15 +656,25 @@ transition:.5s;
     }
     .personalinfo h2{ 
     width:9.6em;
+    font-size:2.3em;
     }
     .personalinfo h3{ 
-        width:15em;
+        width:13.5em;
+        font-size:1.6em;
         }
         .personalinfo p{ 
-            width:28.4em;
+            width:22.3em;
             }
             .personalinfo{
-            height:27.7em;
+            height:48vh;
+            width:65%;
+            }
+            .personalfoto{
+            width:50%;
+            height:25em;
+            }
+            .myway{
+            width:42em;
             }
             .homepagebutton a{
             height:auto;
@@ -704,12 +709,13 @@ transition:.5s;
             box-shadow:2px 9px 33px 10px #1c1f20;
             }
             .icons-list-2{
-                width: 67em;
+                width: 42em;
                 margin-top: 5em;
                 justify-content: space-around;
 }
             .icons-list-1{
                 justify-content: space-around;
+                width:43em;
             }
             .skill-icons{
             height:9em;
@@ -723,6 +729,12 @@ transition:.5s;
             .icons-list-3 #github-logo-shadow{
             margin-right:2em;
             }
+            .skills-list{
+            width:45em;
+            }
+            .icons{
+            width:24.8em;
+            }
 }
 
 @media (min-width: 1024px) and (orientation: landscape){
@@ -733,13 +745,14 @@ transition:.5s;
     align-items: center;
     }
     .personalinfo{
-    height:28em;
+        height: 21em;
+        width: 59%;
  }
  nav ul li a:hover:after{
     transform: scaleX(1); 
 }
     .mainphoto{
-        height:32em;
+        height:31em;
         }
         .Certificate{
             box-shadow:0px 0px;
@@ -826,16 +839,22 @@ transition:.5s;
                         .skill-icons{
                             height:11em;
                             }
+                            .icons-list-1{
+                            width:60em;
+                            }
                             .icons-list-2 img{
                                 height:11em;
                                 }
                                 .icons-list-2{
-                                    width: 67em;
+                                    width: 59em;
                                     margin-top: 5em;
                                     justify-content: space-around;
                 }
                 .icons-list-3 img{
                 height:10em;
+                }
+                .skills-list{
+                width:62em;
                 }
 }
 @media (min-width: 1280px) and (orientation: landscape){
@@ -843,7 +862,7 @@ transition:.5s;
     width:100%;
     }
     .mainphoto{
-        min-height:45em;
+        min-height:38em;
         }
         .slashsymbol{
             padding-top:0.3em;
@@ -851,7 +870,7 @@ transition:.5s;
         .introduction{
             display:flex;
             flex-direction: row;
-            align-items: self-end;
+            align-items: center;
             justify-content: center;
             margin-top:0;
             height:51rem;
@@ -861,7 +880,7 @@ transition:.5s;
             font-size:1.2em;
             }
             .personalinfo h2{
-            width:12.7em;
+            width:16.7em;
             }
             header{
             background-color:transparent !important;
@@ -870,10 +889,14 @@ transition:.5s;
                 transform: scaleX(1); 
             }
             .personalinfo h3{
-            width:20em;
+            width:24em;
             }
             .personalinfo{
-            height:40em;
+            height:26em;
+            }
+            .personalfoto{
+            width:50%;
+            height:31em;
             }
             .Personalphotomini{
             height:15em;
@@ -923,7 +946,19 @@ transition:.5s;
                         .employee-app-card:hover .employee-app-card-inner {
                             transform: rotateY(180deg);
                           }
-                          
+                          .icons-list-1{
+                          justify-content: space-between;
+                          }
+                          .icons-list-3{
+                          width:67em;
+                          justify-content: space-between;
+                          }
+                          #nextjs-logo-shadow{
+                        margin:0 !important;
+                          }
+                          .skills-list{
+                        width:61em;
+                          }
 }
 @media (min-width: 1600px) and (orientation: landscape){
 
