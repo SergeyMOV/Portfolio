@@ -886,7 +886,8 @@ transition:.5s;
             font-size:1.2em;
             }
             .personalinfo h2{
-            width:16.7em;
+            width:12.8em;
+            font-size:3em;
             }
             header{
             background-color:transparent !important;
@@ -895,7 +896,8 @@ transition:.5s;
                 transform: scaleX(1); 
             }
             .personalinfo h3{
-            width:24em;
+            width:19.1em;
+            font-size:2em;
             }
             .personalinfo{
             height:26em;
