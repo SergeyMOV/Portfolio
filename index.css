@@ -392,7 +392,7 @@ transition:.5s;
         }
     }
 
-@media (min-width: 420px) and (orientation: portrait) {
+@media (min-width: 300px) and (orientation: portrait) {
     .main{
     width:110vw;
     }
@@ -626,7 +626,7 @@ transition:.5s;
                 margin-left:5em;
                 }
 }
-@media (min-width: 755px) and (orientation:landscape){
+@media (min-width: 550px) and (orientation:landscape){
     .introduction{
     margin:0;
     align-items:center;
