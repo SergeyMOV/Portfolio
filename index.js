@@ -9,9 +9,9 @@ const contactButton=document.querySelector('[data-js="contactLink"]');
 const projectEmployeeButton=document.querySelector(".employee-app-card-front")
 const employerAppInner = document.querySelector(".employee-app-card-inner")
 const header = document.querySelector('[data-js="Header"]');
-const x = window.matchMedia("(min-width: 420px)");
+const x = window.matchMedia("(min-width: 300px)");
 const y = window.matchMedia("(orientation: portrait)");
-const n = window.matchMedia("(min-width: 750px)");
+const n = window.matchMedia("(min-width: 550px)");
 const c = window.matchMedia("(orientation: landscape)");
 const m = window.matchMedia("(min-width: 1024px)");
 const ml = window.matchMedia("(min-width: 1280px)");
