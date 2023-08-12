@@ -5,9 +5,14 @@ body{
 html{
     scroll-behavior: smooth;
 }
+*{
+box-sizing:border-box;
+text-decoration:none;
+border:none;
+outline:none;
+}
 .main{
 background-color:#081b29;
-background-attachment: fixed;
 }
 nav ul{
 color:white;
@@ -24,6 +29,11 @@ letter-spacing: 1px;
 color:white;
 padding: 0;
 font-size:2.2em;
+}
+#menu-icon{
+font-size:3.6rem;
+color:white;
+cursor:pointer;
 }
 nav{
 padding-top:0.8em;
@@ -392,20 +402,24 @@ transition:.5s;
         }
     }
 
-@media (min-width: 420px) and (orientation: portrait) {
-    .main{
-    width:110vw;
-    }
+@media (min-width: 300px) and (orientation: portrait) {
     header{
     display:flex;
-    flex-direction:column;
+    flex-wrap:wrap;
     height:auto;
+    background-color: transparent;
+    }
+    #menu-icon{
+        font-size: 6rem;
+        padding-top: 0.2em;
+        background: #1c5685;
     }
     .Certificate{
-        font-size:2.7em;
+        font-size:4vw;
         box-shadow:10px 10px;
         color:white;
         margin-top:2em;
+        max-width:14em;
     }
     .Certificate:active{
     color:black;
@@ -456,6 +470,22 @@ transition:.5s;
     }
     nav ul li{
         padding:0.5em 0.8em;
+        width:25em;
+        }
+        nav ul{
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-evenly;
+            height: 61rem;
+            align-items:center;
+            }
+        nav{
+        display:none;
+        background-color: #1c5685;
+        width:100%;
+        height:100vh;
+        position:absolute;
+        margin-top:5.9em;
         }
     a.cv{
     height:0;
@@ -467,9 +497,13 @@ transition:.5s;
     nav ul span{
     font-size:4.3vw;
     padding-top:0.3em !important;
+    display:none;
     }
     .homepagebutton{
     height:auto;
+    }
+    .homepagebutton a{
+    color:white;
     }
     nav ul li a:hover:after{
         transform: scaleX(0); 
@@ -481,7 +515,7 @@ transition:.5s;
     font-size:3em;
     }
     .myway{
-    font-size:2.3em;
+    font-size:3.5vw;
     width:26em;
     text-align:center;
     }
@@ -621,19 +655,42 @@ transition:.5s;
                 .skills-list{
                 align-items:center;
                 margin-top:5em;
+                max-width:88vw;
                 }
                 #github-logo-shadow{
                 margin-left:5em;
                 }
+                
 }
-@media (min-width: 755px) and (orientation:landscape){
+@media (min-width: 550px) and (max-width:1024px) and (orientation:landscape){
     .introduction{
     margin:0;
     align-items:center;
-    height:48em;
+    height:55rem;
     }
     nav ul li a{
     font-size:1.1em;
+    }
+    nav ul{
+    flex-direction: column;
+    text-align: center;
+    height:40rem;
+    }
+    nav{
+    background-color: #0a516f;
+    display:none;
+    width:100%;
+    height:100vh;
+    }
+    #menu-icon{
+    font-size:3rem;
+    }
+    nav ul span{
+    display:none;
+    }
+    header{
+        flex-wrap: wrap;
+        background-color: transparent;
     }
     .mainphoto{
     height: 23em;
@@ -671,7 +728,7 @@ transition:.5s;
             }
             .personalinfo{
             height:37vh;
-            width:49%;
+            width:60%;
             }
             .personalfoto{
             width:50%;
@@ -679,6 +736,7 @@ transition:.5s;
             }
             .myway{
             width:42em;
+            font-size:2vw;
             }
             .homepagebutton a{
             height:auto;
@@ -739,18 +797,62 @@ transition:.5s;
             .icons{
             width:24.8em;
             }
+            nav ul li a{
+                font-size: 4.2vw;
+            }
+            nav ul hr{
+            display:none;
+            }
+            nav ul{
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            nav ul li{
+            width:20em;
+            }
 }
 
 @media (min-width: 1024px) and (orientation: landscape){
+
+    header{
+    flex-wrap:nowrap;
+    width:none;
+    background-color: transparent !important;
+    }
     .main{
     width:100%;
     }
+    #menu-icon{
+        display:none;
+        }
+        nav ul hr{
+        display:none;
+        }
+        nav ul li a{
+        font-size:1.2em;
+        }
     .introduction{
     align-items: center;
     }
+    nav{
+    display:block !important;
+    background-Color:transparent;
+    }
+    nav ul{
+    flex-direction:row;
+    }
+    nav ul span{
+    display:block;
+    }
     .personalinfo{
         height: 21em;
-        width: 59%;
+        width: 52%;
+ }
+ .personalinfo p{
+ width:28.1em;
+ }
+ .personname{
+width:9.5em;
  }
  nav ul li a:hover:after{
     transform: scaleX(1); 
@@ -861,6 +963,12 @@ transition:.5s;
                 }
                 .skills-list{
                 width:62em;
+                }
+                .personprofession{
+                width:14.9em;
+                }
+                .capstone-project{
+                    height:14em;
                 }
 }
 @media (min-width: 1280px) and (orientation: landscape){

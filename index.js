@@ -9,9 +9,10 @@ const contactButton=document.querySelector('[data-js="contactLink"]');
 const projectEmployeeButton=document.querySelector(".employee-app-card-front")
 const employerAppInner = document.querySelector(".employee-app-card-inner")
 const header = document.querySelector('[data-js="Header"]');
-const x = window.matchMedia("(min-width: 420px)");
+const menuIcon = document.querySelector("#menu-icon");
+const x = window.matchMedia("(min-width: 300px)");
 const y = window.matchMedia("(orientation: portrait)");
-const n = window.matchMedia("(min-width: 750px)");
+const n = window.matchMedia("(min-width: 550px)");
 const c = window.matchMedia("(orientation: landscape)");
 const m = window.matchMedia("(min-width: 1024px)");
 const ml = window.matchMedia("(min-width: 1280px)");
@@ -23,10 +24,26 @@ else {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-};
+}
 homeButton.onclick = function(){
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 };
+const s = document.querySelector("nav");
+function myFunction(){
+if(s.style.display==="block"){
+s.style.display="none";
+document.querySelector("header").style.backgroundColor="transparent"
+}
+else if(x.matches && !n.matches && s.style.display==="none"){
+    s.style.display="block";
+    document.querySelector("header").style.backgroundColor="#1c5685"
+}
+else {
+s.style.display="block";
+document.querySelector("header").style.backgroundColor="#0a516f";
+document.querySelector("header").style.transition="none";
+}
+}
 
     aboutButton.onclick = function() {
         const page2= document.querySelector(".Aboutme");
@@ -125,7 +142,6 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector("li.About").style.boxShadow ="none";
             homeButton.style.border="1px solid";
             homelink.style.color="skyblue";
-            header.style.backgroundColor="transparent";
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
         }
@@ -175,7 +191,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.borderRadius="8px 8px";
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
         }
-        else  if(m.matches && c.matches && window.scrollY>=1700 &&  window.scrollY<=2000 || ml.matches && window.scrollY>=2200 && window.scrollY<=2400){
+        else  if(m.matches && c.matches && window.scrollY>=1600 &&  window.scrollY<=2000 || ml.matches && window.scrollY>=2200 && window.scrollY<=2400){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector('[data-js="skillsLink"]').style.border="1px solid";
@@ -186,7 +202,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector("li.portf").style.borderRadius="none"; 
             document.querySelector("li.portf").style.boxShadow ="none";
         }
-        else if(m.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3300|| ml.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3200)
+        else if(m.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3200|| ml.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3200)
             {
                 document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
@@ -200,7 +216,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.transition="1s";
             
             }
-        else if(m.matches && c.matches && window.scrollY>=4900 || ml.matches && c.matches && window.scrollY>=5800){
+        else if(m.matches && c.matches && window.scrollY>=3400 || ml.matches && c.matches && window.scrollY>=5800){
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";
             contactButton.style.border="1px solid";
