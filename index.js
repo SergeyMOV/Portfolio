@@ -9,8 +9,8 @@ const contactButton=document.querySelector('[data-js="contactLink"]');
 const projectEmployeeButton=document.querySelector(".employee-app-card-front")
 const employerAppInner = document.querySelector(".employee-app-card-inner")
 const header = document.querySelector('[data-js="Header"]');
-const menuIcon = document.querySelector("#menu-icon");
 const x = window.matchMedia("(min-width: 300px)");
+const menuIcon=document.querySelector("#menu-icon");
 const y = window.matchMedia("(orientation: portrait)");
 const n = window.matchMedia("(min-width: 550px)");
 const c = window.matchMedia("(orientation: landscape)");
