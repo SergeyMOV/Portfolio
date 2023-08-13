@@ -437,7 +437,7 @@ transition:.5s;
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
-    height:113em;
+    height:141em;
     margin:0;
     }
     .personalfoto{
@@ -836,7 +836,7 @@ transition:.5s;
     .introduction{
     align-items: center;
     margin:0;
-    height:50rem;
+    height:55rem;
     }
     nav{
     display:block !important;
@@ -1001,7 +1001,7 @@ width:9.5em;
             align-items: center;
             justify-content: center;
             margin-top:0;
-            height:51rem;
+            height:55rem;
             }
             .personalinfo p{
             width:31.7em;
