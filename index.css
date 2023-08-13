@@ -727,12 +727,12 @@ transition:.5s;
             width:22.3em;
             }
             .personalinfo{
-            height:37vh;
+            height:20rem;
             width:60%;
             }
             .personalfoto{
-            width:50%;
             height:25em;
+            width: auto;
             }
             .myway{
             width:42em;
