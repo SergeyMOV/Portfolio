@@ -80,7 +80,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
   });
 
     document.addEventListener("scroll", ()=>{
-        if(x.matches && y.matches && window.scrollY >=1550 && window.scrollY<2800){
+        if(x.matches && y.matches && window.scrollY >=2000 && window.scrollY<2800){
             document.querySelector("li.About").style.border="1px solid white";
             document.querySelector("li.About").style.borderRadius="8px 8px";
             document.querySelector("li.About").style.transition="1s";
@@ -94,7 +94,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             header.style.backgroundColor="#0b3351";
 
         }
-        else if(x.matches && y.matches && window.scrollY>=3500 && window.scrollY<=5200){
+        else if(x.matches && y.matches && window.scrollY>=4000 && window.scrollY<=5200){
             document.querySelector("li.About").style.border="none";
             document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector('[data-js="skillsLink"]').style.border="1px solid";
@@ -109,7 +109,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.boxShadow="none";
     
         }
-        else if(x.matches && y.matches && window.scrollY>=5500 && window.scrollY<=6200){
+        else if(x.matches && y.matches && window.scrollY>=6100 && window.scrollY<=6200){
         header.style.backgroundColor="#1d5b89";
         document.querySelector('li.portf').style.border="1px solid";
             document.querySelector('li.portf').style.borderRadius="8px 8px";
@@ -121,7 +121,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.borderRadius="none";
             contactButton.style.boxShadow="none";
         }
-        else if(x.matches && y.matches && window.scrollY>=7600){
+        else if(x.matches && y.matches && window.scrollY>=8200){
             contactButton.style.border="1px solid";
             contactButton.style.borderRadius="8px 8px";
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
