@@ -970,6 +970,10 @@ width:9.5em;
                 .capstone-project{
                     height:14em;
                 }
+            .Personalphotomini{
+                height: 14em;
+                width: 11.7em;
+            }
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{
