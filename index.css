@@ -62,7 +62,8 @@ cursor: pointer;
 }
 header{
     display:flex;
-    position:sticky;
+    position:fixed;
+    width:100%;
     z-index:2;
     top:0px;
     justify-content:space-around;
@@ -826,21 +827,28 @@ transition:.5s;
     #menu-icon{
         display:none;
         }
-        nav ul hr{
-        display:none;
+        nav ul li{
+        width:auto;
         }
         nav ul li a{
         font-size:1.2em;
         }
     .introduction{
     align-items: center;
+    margin:0;
+    height:50rem;
     }
     nav{
     display:block !important;
     background-Color:transparent;
+    height:auto;
+    width:auto;
     }
     nav ul{
     flex-direction:row;
+    height:auto;
+    justify-content: unset;
+    align-items:unset;
     }
     nav ul span{
     display:block;
@@ -862,6 +870,7 @@ width:9.5em;
         height:31em;
     border: none;
     background: none;
+    padding:0;
         }
         .Certificate{
             box-shadow:0px 0px;
