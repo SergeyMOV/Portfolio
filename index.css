@@ -710,7 +710,7 @@ transition:.5s;
         transform:scale(0.9);
         }
     .capstone-project{
-    height:14em;
+    height:15em;
     }
     nav ul li a:hover:after{
         transform: scaleX(0); 
