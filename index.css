@@ -533,7 +533,7 @@ transition:.5s;
     max-width:78vw;
     }
     .capstone-project{
-        height:55vw;
+        height:56vw;
         width:auto;
         margin:0 auto;
         max-width:77vw;
@@ -558,7 +558,7 @@ transition:.5s;
         align-items:center;
     }
     .contact h2{
-    font-size:5em;
+    font-size:10vw;
     }
     .contact form .inputs-section input{
     font-size:4vw;
@@ -571,7 +571,7 @@ transition:.5s;
     width:24.4em;
     }
     .btn{
-        font-size:2.8em;
+        font-size:5vw;
         margin-top:2em;
         box-shadow:1px 1px 24px 3px skyblue;
         color:#b5d9e7;
@@ -609,6 +609,7 @@ transition:.5s;
                 margin-top:6em;
                 margin-left:0;
                 max-width: 77vw;
+                height:17em;
                 }
                 .employee-app-card-back button{
                     font-size:1.3em;
