@@ -154,7 +154,6 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             homelink.style.color="skyblue";
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
-            header.style.backgroundColor="transparent";
         }
         else if(n.matches && c.matches && window.scrollY>=700 && window.scrollY<=1250){
             document.querySelector("li.About").style.border="1px solid";
@@ -166,7 +165,6 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             homeButton.style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
-            header.style.backgroundColor="transparent";
         }
         else if(n.matches && c.matches && window.scrollY>=1700 && window.scrollY<=2200){
             contactButton.style.border="none";
@@ -181,7 +179,6 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector('[data-js="skillsLink"]').style.boxShadow ="2px 5px 13px 5px #0985ba"; 
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.borderRadius="none"; 
-            header.style.backgroundColor="transparent";
             document.querySelector("li.portf").style.boxShadow ="none";
             
         }
@@ -195,7 +192,6 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.border="none";
             contactButton.style.borderRadius="none";
             contactButton.style.boxShadow="none";
-            header.style.backgroundColor="transparent";
             contactButton.style.transition="1s";
         }
         else if(n.matches && c.matches && window.scrollY>=3600 && window.scrollY<=3900){
@@ -206,7 +202,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
             document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
-            header.style.backgroundColor="transparent";
+    
         }
         else  if(m.matches && c.matches && window.scrollY>=1600 &&  window.scrollY<=2000 || ml.matches && window.scrollY>=2200 && window.scrollY<=2400){
             document.querySelector("li.About").style.border="none";
