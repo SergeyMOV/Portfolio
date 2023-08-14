@@ -170,8 +170,6 @@ display:flex;
 flex-direction:column;
 width:26em;
 align-items:center;
-height:13rem;
-transition:1s;
 box-shadow: 1px 3px 31px 10px #1c1f20;
     transform:scale(1.1);
 }
@@ -282,7 +280,7 @@ transition:.5s;
 .employee-app-card {
     background-color: transparent;
     width: 26em;
-    height:14em;
+    height:15em;
     perspective: 1000px;
     margin-left:8em;
     transform:scale(1.1);
@@ -522,22 +520,26 @@ transition:.5s;
     .portfolio{
     display:flex;
     justify-content: center;
-    height:127rem;
+    height:110rem;
     }
     .app-description{
-    font-size:2.1em;
+    font-size:4vw;
+    text-align: center;
+    width:auto;
     }
     .capstone-Image{
-    width:53.8em;
-    height:10em;
+    width:77vw;
+    height:auto;
+    max-width:78vw;
     }
     .capstone-project{
-        height:31em;
+        height:55vw;
         width:auto;
         margin:0 auto;
+        max-width:77vw;
     }
     .Capstonebutton{
-        font-size:2.7em;
+        font-size:4vw;
         background-color:rgb(67, 88, 255);
         color:rgb(202, 227, 255);
         box-shadow:9px 9px rgb(202, 227, 255);
@@ -603,9 +605,10 @@ transition:.5s;
             flex-direction:column;
             }
             .employee-app-card{
-                font-size: 2.07em;
+                font-size: 3vw;
                 margin-top:6em;
                 margin-left:0;
+                max-width: 77vw;
                 }
                 .employee-app-card-back button{
                     font-size:1.3em;
@@ -976,7 +979,7 @@ width:9.5em;
                 width:14.9em;
                 }
                 .capstone-project{
-                    height:14em;
+                    height:15em;
                 }
             .Personalphotomini{
                 height: 14em;
