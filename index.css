@@ -626,27 +626,25 @@ transition:.5s;
                 justify-content: center;
                 }
                 .icons-list-2{
-                width:43em;
                 margin-top:6em;
-                margin-left:0;
+                margin-left:9vw;
+                max-width:99vw;
+                width: 83vw;
                 }
                 .icons-list-2 img{
-                height:19em;
+                font-size:3vw;
                 }
                 .Skills h1{
                 font-size:6em;
                 }
                 .icons-list-1 img{
-                height:19em;
+                font-size:2.7vw;
                 margin-top:4em;
                 }
                 .icons-list-1{
-                width:45em;
                 flex-wrap:wrap;
                 margin-right:3.5em;
-                }
-                #react-icon-shadow{
-                margin-left:8em;
+                max-width:75vw;
                 }
                 .icons-list-3{
                 display:flex;
@@ -659,7 +657,6 @@ transition:.5s;
                 .skills-list{
                 align-items:center;
                 margin-top:5em;
-                max-width:88vw;
                 }
                 #github-logo-shadow{
                 margin-left:5em;
