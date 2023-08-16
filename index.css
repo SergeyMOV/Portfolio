@@ -648,18 +648,18 @@ transition:.5s;
                 }
                 .icons-list-3{
                 display:flex;
-                margin-top:8em;
+                margin-top:6em;
                 align-self:center;
                 }
                 .icons-list-3 img{
-                height:14em;
+                font-size:2.2vw;
                 }
                 .skills-list{
                 align-items:center;
                 margin-top:5em;
                 }
                 #github-logo-shadow{
-                margin-left:5em;
+                margin-left:7vw;
                 }
                 
 }
