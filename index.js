@@ -129,7 +129,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.borderRadius="none";
             contactButton.style.boxShadow="none";
         }
-        else if(x.matches && y.matches && window.scrollY>=7800){
+        else if(x.matches && y.matches && window.scrollY>=7600){
             contactButton.style.border="1px solid";
             contactButton.style.borderRadius="8px 8px";
             contactButton.style.boxShadow="2px 5px 13px 5px #0985ba";
