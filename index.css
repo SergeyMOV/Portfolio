@@ -520,7 +520,7 @@ transition:.5s;
     .portfolio{
     display:flex;
     justify-content: center;
-    height:110rem;
+    height:129rem;
     }
     .app-description{
     font-size:4vw;
@@ -622,7 +622,7 @@ transition:.5s;
                     box-shadow:none;
                 }
                 .Skills{
-                height:127em;
+                height:108em;
                 justify-content: center;
                 }
                 .icons-list-2{
@@ -635,7 +635,7 @@ transition:.5s;
                 font-size:3vw;
                 }
                 .Skills h1{
-                font-size:6em;
+                font-size:10vw;
                 }
                 .icons-list-1 img{
                 font-size:2.7vw;
