@@ -585,7 +585,8 @@ transition:.5s;
     color:black;
     }
     .icons{
-    width:38em;
+    width:auto;
+    text-align:center;
     }
 
     .icons a i{
@@ -593,9 +594,9 @@ transition:.5s;
     }
 
     .icons a{
-    width:7em;
-    height:7em;
-    margin-left:2em;
+    width:19vw;
+    height:6em;
+    font-size:3vw;
     }
     .icons a:active::before{
         width:100%;
