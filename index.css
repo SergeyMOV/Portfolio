@@ -523,9 +523,9 @@ transition:.5s;
     height:129rem;
     }
     .app-description{
-    font-size:4vw;
+    font-size:3vw;
     text-align: center;
-    width:auto;
+    width:69vw;
     }
     .capstone-Image{
     width:77vw;
@@ -533,10 +533,11 @@ transition:.5s;
     max-width:78vw;
     }
     .capstone-project{
-        height:56.5vw;
+        height:54.5vw;
         width:auto;
         margin:0 auto;
         max-width:77vw;
+        justify-content: space-between;
     }
     .Capstonebutton{
         font-size:4vw;
@@ -544,6 +545,7 @@ transition:.5s;
         color:rgb(202, 227, 255);
         box-shadow:9px 9px rgb(202, 227, 255);
         transition:0.3s;
+        margin-bottom:1em;
     }
     .Capstonebutton:active{
             transform: scale(0.9);
