@@ -402,7 +402,7 @@ transition:.5s;
         }
     }
 
-@media (min-width: 300px) and (orientation: portrait) {
+@media (min-width: 300px) and (max-width:760px) and (orientation: portrait) {
     header{
     display:flex;
     flex-wrap:wrap;
@@ -666,7 +666,7 @@ transition:.5s;
                 }
                 
 }
-@media (min-width: 550px) and (max-width:1024px) and (orientation:landscape){
+@media (min-width: 590px) and (max-width:1010px) and (orientation:landscape){
     .introduction{
     margin:0;
     align-items:center;
@@ -816,7 +816,7 @@ transition:.5s;
             }
 }
 
-@media (min-width: 1024px) and (orientation: landscape){
+@media (min-width: 1010px) and (orientation: landscape){
 
     header{
     flex-wrap:nowrap;
