@@ -12,7 +12,7 @@ const header = document.querySelector('[data-js="Header"]');
 const x = window.matchMedia("(min-width: 300px)");
 const menuIcon=document.querySelector("#menu-icon");
 const y = window.matchMedia("(orientation: portrait)");
-const n = window.matchMedia("(min-width: 590px)");
+const n = window.matchMedia("(min-width: 535px)");
 const c = window.matchMedia("(orientation: landscape)");
 const m = window.matchMedia("(min-width: 1010px)");
 const ml = window.matchMedia("(min-width: 1280px)");
