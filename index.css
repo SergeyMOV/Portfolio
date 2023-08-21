@@ -402,7 +402,7 @@ transition:.5s;
         }
     }
 
-@media (min-width: 300px) and (orientation: portrait) {
+@media (min-width: 300px)and (orientation: portrait) {
     header{
     display:flex;
     flex-wrap:wrap;
@@ -732,7 +732,7 @@ transition:.5s;
             }
             .personalinfo{
             height:20rem;
-            width:60%;
+            width:52%;
             }
             .personalfoto{
             height:25em;
