@@ -428,7 +428,11 @@ transition:.5s;
     font-size:auto;
     }
     .mainphoto{
-        height:58em;
+    height: 82vw;
+    border-radius: 50%;
+    background: #073c52;
+    border: none;
+    padding-top: 1em;
         }
     .introduction{
     display:flex;
