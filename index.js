@@ -1,7 +1,6 @@
 const aboutButton = document.querySelector('[data-js="Aboutbutton"]');
 const homeButton = document.querySelector('[data-js="homebt"]');
 const homelink = document.querySelector('[data-js="homelink"]');
-const certificateButton = document.querySelector('[data-js="Certificate"]');
 const portfolioButton = document.querySelector(".portf");
 const skillsButton = document.querySelector('[data-js="skillsLink"]');
 const cvButton = document.querySelector('[data-js="CV"]');
