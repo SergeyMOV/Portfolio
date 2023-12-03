@@ -178,8 +178,12 @@ background-color: #1d5b89;
         width:auto;
         transform: scale(1.1);
         max-width: 77vw;
-        background:repeating-linear-gradient(45deg, black, transparent 100px);
+        background:repeating-linear-gradient(45deg, #2ca1cd, transparent 100px);
     
+}
+.calculator-image{ 
+    height: 16em;
+    width: 17rem;
 }
 .capstone-project{
 display:flex;
@@ -207,6 +211,7 @@ font-size:1.1em;
 border-radius: 8px 8px;
 letter-spacing: 2px;
 transition:1s;
+margin-top:0.7em;
 }
 .contact{
 background-color:#1d4662;
@@ -747,11 +752,12 @@ transition:.5s;
         transform: scaleX(0); 
     }
     .calculator-image{
-        height: 17em;
-        width: 26rem;
+        height: 16rem;
+        width: 17rem;
     }
     .calculator-app{
-    height: 20em;
+    height: 19em;
+    width: 26em;
     }
     .personalinfo h2{ 
     width:9.6em;
@@ -869,12 +875,13 @@ transition:.5s;
         font-size:1.2em;
         }
         .calculator-image{
-            height: 17em;
-            width: 26rem;
+            height: 16rem;
+            width: 17rem;
         }
         .calculator-app{
-            height: 19em;
-            }
+        height: 19em;
+        width: 26em;
+        }
     .introduction{
     align-items: center;
     margin:0;
