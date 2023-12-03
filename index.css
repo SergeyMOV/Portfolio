@@ -148,6 +148,10 @@ border: 4px solid white;
 color:skyblue;
 width:49em;
 }
+.clickimage{
+width:6em;
+margin-top:2em;
+}
 .Certificate{
     height:2em;
     width:17em;
@@ -161,9 +165,21 @@ width:49em;
 .portfolio{
 display:flex;
 height:50em;
+flex-direction: column;
 align-items:center;
-justify-content:center;
+justify-content:space-around;
 background-color: #1d5b89;
+}
+.calculator-app{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height:auto;
+        width:auto;
+        transform: scale(1.1);
+        max-width: 77vw;
+        background:repeating-linear-gradient(45deg, black, transparent 100px);
+    
 }
 .capstone-project{
 display:flex;
@@ -282,7 +298,6 @@ transition:.5s;
     width: 26em;
     height:15em;
     perspective: 1000px;
-    margin-left:8em;
     transform:scale(1.1);
   }
   
@@ -523,7 +538,6 @@ transition:.5s;
     }
     .portfolio{
     display:flex;
-    justify-content: center;
     height:129rem;
     }
     .app-description{
@@ -611,9 +625,18 @@ transition:.5s;
             display:flex;
             flex-direction:column;
             }
+            .calculator-app{
+            width:auto;
+            transform:scale(1.1);
+            max-width: 77vw;
+            }
+            .calculator-app img{
+            width: 77vw;
+            height: 49vw;
+            max-width: 78vw;
+            }
             .employee-app-card{
                 font-size: 3vw;
-                margin-top:6em;
                 margin-left:0;
                 max-width: 77vw;
                 height:17em;
@@ -723,6 +746,13 @@ transition:.5s;
     nav ul li a:hover:after{
         transform: scaleX(0); 
     }
+    .calculator-image{
+        height: 17em;
+        width: 26rem;
+    }
+    .calculator-app{
+    height: 20em;
+    }
     .personalinfo h2{ 
     width:9.6em;
     font-size:2.3em;
@@ -766,13 +796,12 @@ transition:.5s;
             .portfolio{
             display:flex;
             flex-direction:column;
-            height:60em;
+            height:78em;
             }
             .Aboutme{
             height:60em;
             }
             .employee-app-card{
-            margin-top:4em;
             margin-left:0;
             }
             .employee-app-card-inner{
@@ -839,6 +868,13 @@ transition:.5s;
         nav ul li a{
         font-size:1.2em;
         }
+        .calculator-image{
+            height: 17em;
+            width: 26rem;
+        }
+        .calculator-app{
+            height: 19em;
+            }
     .introduction{
     align-items: center;
     margin:0;
@@ -849,6 +885,9 @@ transition:.5s;
     background-Color:transparent;
     height:auto;
     width:auto;
+    }
+    .clickimage{
+    display:none;
     }
     nav ul{
     flex-direction:row;
@@ -913,8 +952,8 @@ width:9.5em;
         }
     .portfolio{
     display:flex;
-    flex-direction:row;
-    height:56em;
+    flex-direction:column;
+    height:67em;
     }
     .Aboutme{
     height:56em;
@@ -933,10 +972,7 @@ width:9.5em;
         .icons a:hover::before{
             width:100%;
             }
-              .employee-app-card{
-                margin-top:0;
-                margin-left:6em;
-                }
+              
                 .employee-app-card-back button{
                     box-shadow: none;
                     background-color: white;
@@ -1047,9 +1083,7 @@ width:9.5em;
             .Aboutme{
             height:60em;
             }
-            .portfolio{
-                height:51rem;
-                }
+            
                 .Capstonebutton:hover{
                     box-shadow:7px 7px rgb(202, 227, 255);
                     transform:scale(1.1);
