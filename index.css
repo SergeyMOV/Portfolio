@@ -409,6 +409,12 @@ transition:.5s;
     .skill-icons{
     height:11em;
     }
+    .Calculator-App-Title{
+        font-size: 5vw;
+        color: powderblue;
+        margin-bottom: 0.5em;
+        margin-top: 0.3em;
+    }
 
     @keyframes floatImage{
        0% {
