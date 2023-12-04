@@ -631,14 +631,14 @@ transition:.5s;
             flex-direction:column;
             }
             .calculator-app{
-            width:auto;
+            width:78vw;
             transform:scale(1.1);
-            max-width: 77vw;
+            max-width: 78vw;
             }
             .calculator-app img{
-            width: 77vw;
-            height: 49vw;
-            max-width: 78vw;
+            width: 40vw;
+            height: auto;
+            max-width: 41vw;
             }
             .employee-app-card{
                 font-size: 3vw;
