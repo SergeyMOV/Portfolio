@@ -564,7 +564,7 @@ transition:.5s;
     max-width:78vw;
     }
     .capstone-project{
-        height:100vw;
+        height:auto;
         width:78vw;
         max-width:81vw;
         justify-content: space-between;
