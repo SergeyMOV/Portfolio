@@ -763,7 +763,7 @@ transition:.5s;
         transform:scale(0.9);
         }
     .capstone-project{
-    height:38rem;
+    height:auto;
     }
     nav ul li a:hover:after{
         transform: scaleX(0); 
@@ -809,6 +809,7 @@ transition:.5s;
                 background-color:rgb(67, 88, 255);
                 color:rgb(202, 227, 255);
                 box-shadow:7px 7px rgb(202, 227, 255);
+                margin-bottom:1em;
             }
             .Capstonebutton:active{
                     transform: scale(0.9);
