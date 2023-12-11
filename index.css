@@ -561,7 +561,7 @@ transition:.5s;
     }
     .portfolio{
     display:flex;
-    height:173rem;
+    height:205rem;
     flex-direction:column;
     justify-content:space-evenly;
     }
