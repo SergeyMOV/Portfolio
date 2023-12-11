@@ -193,7 +193,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.boxShadow="none";
             contactButton.style.transition="1s";
         }
-        else if(n.matches && c.matches && window.scrollY>=3600 && window.scrollY<=3900){
+        else if(n.matches && c.matches && window.scrollY>=4000 && window.scrollY<=4200){
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";
             contactButton.style.border="1px solid";
@@ -214,7 +214,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             document.querySelector("li.portf").style.borderRadius="none"; 
             document.querySelector("li.portf").style.boxShadow ="none";
         }
-        else if(m.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3200|| ml.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3200)
+        else if(m.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3900|| ml.matches && c.matches && window.scrollY>=2500 && window.scrollY<=3200)
             {
                 document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
@@ -228,7 +228,7 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             contactButton.style.transition="1s";
             
             }
-        else if(m.matches && c.matches && window.scrollY>=3400 || ml.matches && c.matches && window.scrollY>=5800){
+        else if(m.matches && c.matches && window.scrollY>=4100 || ml.matches && c.matches && window.scrollY>=5800){
             document.querySelector("li.portf").style.border="none";
             document.querySelector("li.portf").style.boxShadow="none";
             contactButton.style.border="1px solid";
