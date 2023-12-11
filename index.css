@@ -460,6 +460,10 @@ transition:.5s;
     border: none;
     padding-top: 1em;
         }
+        .Skills img{
+            animation: none;
+            animation-delay: none;
+            }
     .introduction{
     display:flex;
     flex-direction:column-reverse;
@@ -670,7 +674,7 @@ transition:.5s;
                 }
                 .icons-list-2{
                 margin-top:6em;
-                margin-left:9vw;
+                margin-left:4vw;
                 max-width:99vw;
                 width: 83vw;
                 }
@@ -686,16 +690,22 @@ transition:.5s;
                 }
                 .icons-list-1{
                 flex-wrap:wrap;
-                margin-right:3.5em;
-                max-width:75vw;
+                margin-right:11.5vw;
+                max-width:91vw;
+                width:77vw;
+                justify-content: space-between;
+                height:42vw;
                 }
                 .icons-list-3{
                 display:flex;
                 margin-top:6em;
                 align-self:center;
+                width:92vw;
+                max-width: 92vw;
+                justify-content: space-between;
                 }
                 .icons-list-3 img{
-                font-size:2.2vw;
+                font-size:2.5vw;
                 }
                 .skills-list{
                 align-items:center;
@@ -707,6 +717,12 @@ transition:.5s;
                 .Capstone-App-Title{
                     font-size: 4vw;
                     color: rgb(19, 171, 241);
+                }
+                #bootstrap-logo-shadow{
+                height:29vw;
+                }
+                #bootstrap-logo{
+                font-size:3vw;
                 }
                 
 }
@@ -838,6 +854,11 @@ transition:.5s;
             .employee-app-card-inner{
             box-shadow:2px 9px 33px 10px #1c1f20;
             }
+            .employee-app-button:active{
+                transform: scale(0.9);
+                box-shadow: 0px 0px;
+                transition:none;
+            }
             .icons-list-2{
                 width: 42em;
                 margin-top: 5em;
@@ -853,11 +874,15 @@ transition:.5s;
             .icons-list-2 img{
                 height:9em;
                 }
-            .icons-list-3 #nextjs-logo-shadow{
+            .icons-list-3 #bootstrap-logo-shadow{
             margin-left:2em;
+            height:9em;
+            }
+            #bootstrap-logo{
+            font-size:1.2em;
             }
             .icons-list-3 #github-logo-shadow{
-            margin-right:2em;
+            margin-right:1em;
             }
             .skills-list{
             width:45em;
@@ -1072,6 +1097,12 @@ width:9.5em;
                 height: 14em;
                 width: 11.7em;
             }
+            #bootstrap-logo-shadow{
+            height:10em;
+            }
+            #bootstrap-logo{
+            font-size: 1.2em;
+            }
 }
 @media (min-width: 1280px) and (orientation: landscape){
     .main{
@@ -1169,7 +1200,7 @@ width:9.5em;
                           width:67em;
                           justify-content: space-between;
                           }
-                          #nextjs-logo-shadow{
+                          #bootstrap-logo-shadow{
                         margin:0 !important;
                           }
                           .skills-list{
