@@ -218,6 +218,8 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
             {
                 document.querySelector('[data-js="skillsLink"]').style.border="none";
             document.querySelector('[data-js="skillsLink"]').style.boxShadow="none";
+            document.querySelector("li.About").style.border="none";
+            document.querySelector("li.About").style.boxShadow ="none";
             document.querySelector('li.portf').style.border="1px solid";
             document.querySelector('li.portf').style.borderRadius="8px 8px";
             document.querySelector('li.portf').style.transition="2s"; 

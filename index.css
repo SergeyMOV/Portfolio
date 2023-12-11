@@ -301,7 +301,7 @@ transition:.5s;
 .employee-app-card {
     background-color: transparent;
     width: 26em;
-    height:15em;
+    height:28rem;
     perspective: 1000px;
     transform:scale(1.1);
   }
@@ -325,6 +325,10 @@ transition:.5s;
   }
   
   .employee-app-card-front {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #446999;
     color:#fbf1f1;
     letter-spacing: 4px;
@@ -333,6 +337,7 @@ transition:.5s;
   .employee-app-card-back {
     display:flex;
     flex-direction:column;
+    height:auto;
     justify-content:center;
     align-items:center;
     background-color: #2980b9;
@@ -341,7 +346,6 @@ transition:.5s;
   }
   .employee-app-card-back h1{
    font-size:1.4em;
-   margin-top:0;
   }
   .employee-app-card-back p{
    width:25em;
@@ -415,6 +419,10 @@ transition:.5s;
         margin-bottom: 0.5em;
         margin-top: 0.3em;
     }
+    .Employee-App{
+        width:19em;
+        height:15em;
+        }
 
     @keyframes floatImage{
        0% {
@@ -656,7 +664,7 @@ transition:.5s;
                 font-size: 3vw;
                 margin-left:0;
                 max-width: 77vw;
-                height:17em;
+                height:84vw;
                 }
                 .employee-app-card-back button{
                     font-size:1.3em;
@@ -839,7 +847,7 @@ transition:.5s;
             .portfolio{
             display:flex;
             flex-direction:column;
-            height:94em;
+            height:111rem;
             }
             .Capstone-Project-Image{
                 width:22rem;
@@ -1020,7 +1028,7 @@ width:9.5em;
     .portfolio{
     display:flex;
     flex-direction:column;
-    height:95rem;
+    height:111rem;
     }
     .Aboutme{
     height:56em;
