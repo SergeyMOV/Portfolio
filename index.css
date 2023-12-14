@@ -699,9 +699,9 @@ transition:.5s;
                 }
                 .icons-list-1{
                 flex-wrap:wrap;
-                margin-right:11.5vw;
+                margin-right:7.5vw;
                 max-width:91vw;
-                width:77vw;
+                width:79vw;
                 justify-content: space-between;
                 height:42vw;
                 }
@@ -722,6 +722,11 @@ transition:.5s;
                 }
                 #github-logo-shadow{
                 margin-left:7vw;
+                height:29vw;
+                }
+                #github-logo{
+                margin-top:-2.5em;
+                font-size:4.5vw;
                 }
                 .Capstone-App-Title{
                     font-size: 4vw;
@@ -890,9 +895,6 @@ transition:.5s;
             #bootstrap-logo{
             font-size:1.2em;
             }
-            .icons-list-3 #github-logo-shadow{
-            margin-right:1em;
-            }
             .skills-list{
             width:45em;
             }
@@ -914,6 +916,13 @@ transition:.5s;
             }
         .Calculator-App-Title{
         font-size:1.7rem;
+        }
+        #github-logo-shadow{
+            height: 14em;
+            margin-top: -5em;
+        }
+        #github-logo{
+        font-size: 2em;
         }
 }
 
@@ -1111,6 +1120,13 @@ width:9.5em;
             }
             #bootstrap-logo{
             font-size: 1.2em;
+            }
+            #github-logo-shadow{
+                margin-top: -6em;
+                height: 16em;
+            }
+            #github-logo{
+            font-size:2em;
             }
 }
 @media (min-width: 1280px) and (orientation: landscape){
