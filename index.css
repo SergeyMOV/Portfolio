@@ -1117,6 +1117,7 @@ width:9.5em;
             }
             #bootstrap-logo-shadow{
             height:10em;
+            margin-left: 2em;
             }
             #bootstrap-logo{
             font-size: 1.2em;
@@ -1222,7 +1223,7 @@ width:9.5em;
                           justify-content: space-between;
                           }
                           .icons-list-3{
-                          width:67em;
+                          width:64em;
                           justify-content: space-between;
                           }
                           #bootstrap-logo-shadow{
