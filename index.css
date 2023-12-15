@@ -752,7 +752,7 @@ transition:.5s;
     nav ul{
     flex-direction: column;
     text-align: center;
-    height:77vh;
+    height:65vh;
     }
     nav{
     background-color: #0a516f;
@@ -902,7 +902,7 @@ transition:.5s;
             width:24.8em;
             }
             nav ul li a{
-                font-size: 4.2vw;
+                font-size: 3.5vw;
             }
             nav ul hr{
             display:none;
