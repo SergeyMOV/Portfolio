@@ -421,8 +421,8 @@ transition:.5s;
         margin-top: 0.3em;
     }
     .Employee-App{
-        width:19em;
-        height:15em;
+        width: 22em;
+        height: 16em;
         }
 
     @keyframes floatImage{
